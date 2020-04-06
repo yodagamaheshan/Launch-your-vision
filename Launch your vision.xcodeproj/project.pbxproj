@@ -86,9 +86,9 @@
 		56E3913E243B8213000F6F46 /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				56E3914A243B8D29000F6F46 /* HomeViewController.swift */,
 				56E39147243B8CF5000F6F46 /* ImageSlider */,
 				56E3913F243B821E000F6F46 /* Web */,
-				56E3914A243B8D29000F6F46 /* HomeViewController.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
