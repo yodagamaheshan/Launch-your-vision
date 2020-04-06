@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  SplashViewController.swift
 //  Launch your vision
 //
 //  Created by Heshan Yodagama on 4/6/20.
@@ -8,13 +8,11 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class SplashViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+
         // Do any additional setup after loading the view.
     }
-
-
 }
-
