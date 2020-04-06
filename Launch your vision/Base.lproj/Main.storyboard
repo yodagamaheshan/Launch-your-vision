@@ -44,7 +44,19 @@
                     <view key="view" contentMode="scaleToFill" id="G3H-Vx-cvd">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="FUD-F6-IuH">
+                                <rect key="frame" x="0.0" y="44" width="414" height="852"/>
+                                <color key="backgroundColor" systemColor="systemOrangeColor" red="1" green="0.58431372550000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </view>
+                        </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="FUD-F6-IuH" firstAttribute="top" secondItem="Amb-DC-PYZ" secondAttribute="top" id="0md-Uh-Iq0"/>
+                            <constraint firstItem="FUD-F6-IuH" firstAttribute="leading" secondItem="Amb-DC-PYZ" secondAttribute="leading" id="LNX-dB-cBG"/>
+                            <constraint firstAttribute="bottom" secondItem="FUD-F6-IuH" secondAttribute="bottom" id="cLz-4e-TMI"/>
+                            <constraint firstItem="FUD-F6-IuH" firstAttribute="trailing" secondItem="Amb-DC-PYZ" secondAttribute="trailing" id="crF-GV-586"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="Amb-DC-PYZ"/>
                     </view>
                 </viewController>
