@@ -17,6 +17,7 @@
 		56E39149243B8D16000F6F46 /* ImageSlideViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56E39148243B8D16000F6F46 /* ImageSlideViewController.swift */; };
 		56E3914B243B8D29000F6F46 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56E3914A243B8D29000F6F46 /* HomeViewController.swift */; };
 		56E3914D243B8D3E000F6F46 /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56E3914C243B8D3E000F6F46 /* SplashViewController.swift */; };
+		CA4D23138CEF71E71C1F59A8 /* Pods_Launch_your_vision.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 748CE81F9D8B1D0E9E568DB7 /* Pods_Launch_your_vision.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,9 @@
 		56E39148243B8D16000F6F46 /* ImageSlideViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageSlideViewController.swift; sourceTree = "<group>"; };
 		56E3914A243B8D29000F6F46 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		56E3914C243B8D3E000F6F46 /* SplashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
+		5AB930A3B6A23DB9703A32A8 /* Pods-Launch your vision.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Launch your vision.release.xcconfig"; path = "Target Support Files/Pods-Launch your vision/Pods-Launch your vision.release.xcconfig"; sourceTree = "<group>"; };
+		626B9036B3BC97B9DB4706EF /* Pods-Launch your vision.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Launch your vision.debug.xcconfig"; path = "Target Support Files/Pods-Launch your vision/Pods-Launch your vision.debug.xcconfig"; sourceTree = "<group>"; };
+		748CE81F9D8B1D0E9E568DB7 /* Pods_Launch_your_vision.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Launch_your_vision.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +44,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				56E39146243B8AD5000F6F46 /* WebKit.framework in Frameworks */,
+				CA4D23138CEF71E71C1F59A8 /* Pods_Launch_your_vision.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -52,6 +57,7 @@
 				56E39128243B808E000F6F46 /* Launch your vision */,
 				56E39127243B808E000F6F46 /* Products */,
 				56E39144243B8AD4000F6F46 /* Frameworks */,
+				C09ECB065FF9BE8745685C39 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -116,6 +122,7 @@
 			isa = PBXGroup;
 			children = (
 				56E39145243B8AD5000F6F46 /* WebKit.framework */,
+				748CE81F9D8B1D0E9E568DB7 /* Pods_Launch_your_vision.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -128,6 +135,16 @@
 			path = ImageSlider;
 			sourceTree = "<group>";
 		};
+		C09ECB065FF9BE8745685C39 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				626B9036B3BC97B9DB4706EF /* Pods-Launch your vision.debug.xcconfig */,
+				5AB930A3B6A23DB9703A32A8 /* Pods-Launch your vision.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +152,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 56E3913A243B8093000F6F46 /* Build configuration list for PBXNativeTarget "Launch your vision" */;
 			buildPhases = (
+				0ECC1F9FFC78739EB6BC91EB /* [CP] Check Pods Manifest.lock */,
 				56E39122243B808E000F6F46 /* Sources */,
 				56E39123243B808E000F6F46 /* Frameworks */,
 				56E39124243B808E000F6F46 /* Resources */,
+				FFA262A7435B9008732B93C7 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -193,6 +212,48 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0ECC1F9FFC78739EB6BC91EB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Launch your vision-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FFA262A7435B9008732B93C7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Launch your vision/Pods-Launch your vision-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Launch your vision/Pods-Launch your vision-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Launch your vision/Pods-Launch your vision-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		56E39122243B808E000F6F46 /* Sources */ = {
@@ -346,6 +407,7 @@
 		};
 		56E3913B243B8093000F6F46 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 626B9036B3BC97B9DB4706EF /* Pods-Launch your vision.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -364,6 +426,7 @@
 		};
 		56E3913C243B8093000F6F46 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5AB930A3B6A23DB9703A32A8 /* Pods-Launch your vision.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
