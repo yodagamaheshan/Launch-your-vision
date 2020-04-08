@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -141,7 +141,6 @@
 				626B9036B3BC97B9DB4706EF /* Pods-Launch your vision.debug.xcconfig */,
 				5AB930A3B6A23DB9703A32A8 /* Pods-Launch your vision.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
