@@ -8,5 +8,6 @@ target 'Launch your vision' do
   # Pods for Launch your vision
 
 pod 'ImageSlideshow', '~> 1.8.3'
+pod "RQShineLabel"
 
 end

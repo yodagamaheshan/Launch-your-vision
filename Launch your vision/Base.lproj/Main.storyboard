@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="TBQ-HG-tEt">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16086"/>
@@ -15,23 +15,39 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="jau-8d-d3G">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
-                            </imageView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8TI-kt-GBc">
+                                <rect key="frame" x="30" y="84" width="354" height="190"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="wR3-xL-xAn">
+                                        <rect key="frame" x="0.0" y="0.0" width="354" height="190"/>
+                                    </stackView>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <constraints>
+                                    <constraint firstItem="wR3-xL-xAn" firstAttribute="top" secondItem="8TI-kt-GBc" secondAttribute="top" id="OQ7-Qd-5r6"/>
+                                    <constraint firstItem="wR3-xL-xAn" firstAttribute="leading" secondItem="8TI-kt-GBc" secondAttribute="leading" id="V66-GK-aNI"/>
+                                    <constraint firstAttribute="height" constant="190" id="aF1-S7-GjU"/>
+                                    <constraint firstAttribute="trailing" secondItem="wR3-xL-xAn" secondAttribute="trailing" id="o73-uf-wE2"/>
+                                    <constraint firstAttribute="bottom" secondItem="wR3-xL-xAn" secondAttribute="bottom" id="ouo-VB-fWT"/>
+                                </constraints>
+                            </view>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
-                            <constraint firstItem="jau-8d-d3G" firstAttribute="bottom" secondItem="8bC-Xf-vdC" secondAttribute="bottom" id="JAi-GS-U6y"/>
-                            <constraint firstItem="jau-8d-d3G" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="Xdf-AD-6UJ"/>
-                            <constraint firstItem="jau-8d-d3G" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="jTI-hr-8q3"/>
-                            <constraint firstItem="jau-8d-d3G" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="vw0-TY-xGM"/>
+                            <constraint firstItem="8TI-kt-GBc" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="40" id="0VY-v2-pOy"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="8TI-kt-GBc" secondAttribute="trailing" constant="30" id="4iR-c6-Mml"/>
+                            <constraint firstItem="8TI-kt-GBc" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="30" id="Ci3-jl-Ezj"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <outlet property="myStack" destination="wR3-xL-xAn" id="KeK-3x-5ZW"/>
+                        <outlet property="titlePlaceHolder" destination="8TI-kt-GBc" id="FWE-eA-GeA"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-64" y="111"/>
+            <point key="canvasLocation" x="-65.217391304347828" y="110.49107142857143"/>
         </scene>
         <!--Home View Controller-->
         <scene sceneID="Kjs-1s-pa9">
