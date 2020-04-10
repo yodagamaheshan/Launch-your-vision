@@ -14,9 +14,9 @@ class HomeViewController: UIViewController {
     @IBOutlet var homeButtons: [UIButton]!
     
     
-    static func make() -> WebViewController {
+    static func make() -> HomeViewController {
         let storyboard = UIStoryboard(name: "Main", bundle: nil)
-        let viewController = storyboard.instantiateViewController(withIdentifier: String(describing: WebViewController.self)) as? WebViewController
+        let viewController = storyboard.instantiateViewController(withIdentifier: String(describing: HomeViewController.self)) as? HomeViewController
         return viewController!
     }
     
@@ -24,6 +24,10 @@ class HomeViewController: UIViewController {
         super.viewDidLoad()
         setupViews()
         // Do any additional setup after loading the view.
+    }
+    
+    override func viewWillAppear(_ animated: Bool) {
+         navigationController?.navigationBar.isHidden = true
     }
     
     func setupViews(){

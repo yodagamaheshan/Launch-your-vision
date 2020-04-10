@@ -59,6 +59,8 @@ class ImageSlideViewController: UIViewController {
     }
     
     func setupViews(){
+        
+        navigationController?.navigationBar.isHidden = false
         imageSlideShow.circular = false
         imageSlideShow.pageIndicatorPosition = .init(horizontal: .center, vertical: .bottom)
         imageSlideShow.contentScaleMode = UIViewContentMode.scaleAspectFill
