@@ -24,3 +24,9 @@ extension UIColor{
         return UIColor(named: color.rawValue)!
     }
 }
+
+extension UIViewController{
+    func goTo(viewController: UIViewController){
+        self.navigationController?.pushViewController(viewController, animated: true)
+    }
+}

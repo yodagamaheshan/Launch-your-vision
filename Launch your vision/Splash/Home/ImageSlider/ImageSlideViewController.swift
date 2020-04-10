@@ -42,13 +42,14 @@ class ImageSlideViewController: UIViewController {
         }
     }
     @IBOutlet weak var imageSlideShow: ImageSlideshow!
+    var type: MainScrollable = .IAmCard
     
      //TODO: change with real data
-    var localSource: [BundleImageSource]{ MainScrollable.IAmCard.getImages()}
+    var localSource: [BundleImageSource]{ type.getImages()}
 
-    static func make() -> WebViewController {
+    static func make() -> ImageSlideViewController {
         let storyboard = UIStoryboard(name: "Main", bundle: nil)
-        let viewController = storyboard.instantiateViewController(withIdentifier: String(describing: WebViewController.self)) as? WebViewController
+        let viewController = storyboard.instantiateViewController(withIdentifier: String(describing: ImageSlideViewController.self)) as? ImageSlideViewController
         return viewController!
     }
     

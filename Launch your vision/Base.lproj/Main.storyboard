@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="5ET-Nu-wYn">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="3od-PF-k23">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16086"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -56,13 +57,170 @@
                     <view key="view" contentMode="scaleToFill" id="3Oz-wI-kFr">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="-10" translatesAutoresizingMaskIntoConstraints="NO" id="myi-6m-wXL">
+                                <rect key="frame" x="88.5" y="110" width="237.5" height="145.5"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="LAUNCH YOUR" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8IV-ZA-RDr">
+                                        <rect key="frame" x="0.0" y="0.0" width="237.5" height="57.5"/>
+                                        <fontDescription key="fontDescription" name="AvenirNextCondensed-Bold" family="Avenir Next Condensed" pointSize="42"/>
+                                        <color key="textColor" systemColor="systemPinkColor" red="1" green="0.1764705882" blue="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Vision" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fIO-JY-Wei">
+                                        <rect key="frame" x="65" y="47.5" width="107.5" height="50.5"/>
+                                        <fontDescription key="fontDescription" name="BodoniSvtyTwoITCTT-Bold" family="Bodoni 72" pointSize="42"/>
+                                        <color key="textColor" systemColor="systemPinkColor" red="1" green="0.1764705882" blue="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="TOOL KIT" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eEM-Ru-oxM">
+                                        <rect key="frame" x="45" y="88" width="147" height="57.5"/>
+                                        <fontDescription key="fontDescription" name="AvenirNextCondensed-Bold" family="Avenir Next Condensed" pointSize="42"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Sonjia Pelton-Sam  ( The GLAM Coach)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qzo-iz-eCw">
+                                <rect key="frame" x="46.5" y="841" width="321" height="23"/>
+                                <fontDescription key="fontDescription" name="NotoSansKannada-Bold" family="Noto Sans Kannada" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="4It-Cc-Twc">
+                                <rect key="frame" x="0.0" y="263.5" width="414" height="553.5"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="inY-He-I2T">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="184.5"/>
+                                        <subviews>
+                                            <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="Bnm-0F-Bgw">
+                                                <rect key="frame" x="0.0" y="0.0" width="207" height="184.5"/>
+                                                <color key="backgroundColor" systemColor="systemOrangeColor" red="1" green="0.58431372550000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <fontDescription key="fontDescription" name="AvenirNextCondensed-Bold" family="Avenir Next Condensed" pointSize="22"/>
+                                                <state key="normal">
+                                                    <color key="titleColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="homeButtonTapped:" destination="UU9-sq-rrY" eventType="touchUpInside" id="l2c-UI-wd2"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="lu3-bn-0Oj">
+                                                <rect key="frame" x="207" y="0.0" width="207" height="184.5"/>
+                                                <color key="backgroundColor" name="butonColor-2"/>
+                                                <fontDescription key="fontDescription" name="AvenirNextCondensed-Bold" family="Avenir Next Condensed" pointSize="22"/>
+                                                <state key="normal">
+                                                    <color key="titleColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="homeButtonTapped:" destination="UU9-sq-rrY" eventType="touchUpInside" id="bW0-0Y-sPM"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="7vP-gH-q6W">
+                                        <rect key="frame" x="0.0" y="184.5" width="414" height="184.5"/>
+                                        <subviews>
+                                            <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="mE7-ft-g9x">
+                                                <rect key="frame" x="0.0" y="0.0" width="207" height="184.5"/>
+                                                <color key="backgroundColor" name="butonColor-3"/>
+                                                <fontDescription key="fontDescription" name="AvenirNextCondensed-Bold" family="Avenir Next Condensed" pointSize="32"/>
+                                                <state key="normal">
+                                                    <color key="titleColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="homeButtonTapped:" destination="UU9-sq-rrY" eventType="touchUpInside" id="3YR-MM-lvS"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="ZHC-xH-fhN">
+                                                <rect key="frame" x="207" y="0.0" width="207" height="184.5"/>
+                                                <color key="backgroundColor" name="butonColor-4"/>
+                                                <fontDescription key="fontDescription" name="AvenirNextCondensed-Bold" family="Avenir Next Condensed" pointSize="32"/>
+                                                <state key="normal">
+                                                    <color key="titleColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="homeButtonTapped:" destination="UU9-sq-rrY" eventType="touchUpInside" id="5BZ-ze-xVI"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="qyA-sL-5oW">
+                                        <rect key="frame" x="0.0" y="369" width="414" height="184.5"/>
+                                        <subviews>
+                                            <button opaque="NO" tag="5" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="dtN-go-L5t">
+                                                <rect key="frame" x="0.0" y="0.0" width="207" height="184.5"/>
+                                                <color key="backgroundColor" name="butonColor-5"/>
+                                                <fontDescription key="fontDescription" name="AvenirNextCondensed-Bold" family="Avenir Next Condensed" pointSize="26"/>
+                                                <state key="normal">
+                                                    <color key="titleColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="homeButtonTapped:" destination="UU9-sq-rrY" eventType="touchUpInside" id="KlM-lg-hhz"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" tag="6" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="Mda-OU-yLN">
+                                                <rect key="frame" x="207" y="0.0" width="207" height="184.5"/>
+                                                <color key="backgroundColor" name="butonColor-6"/>
+                                                <fontDescription key="fontDescription" name="AvenirNextCondensed-Bold" family="Avenir Next Condensed" pointSize="22"/>
+                                                <state key="normal">
+                                                    <color key="titleColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="homeButtonTapped:" destination="UU9-sq-rrY" eventType="touchUpInside" id="eJa-pN-Xlw"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                            </stackView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Flower" translatesAutoresizingMaskIntoConstraints="NO" id="f0r-ER-EcM">
+                                <rect key="frame" x="-101.5" y="57.5" width="209" height="251"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="251" id="9a6-L0-cMc"/>
+                                    <constraint firstAttribute="width" constant="209" id="dyc-WB-fzR"/>
+                                </constraints>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Flower" translatesAutoresizingMaskIntoConstraints="NO" id="YY1-Ou-ao4">
+                                <rect key="frame" x="286" y="164" width="271" height="226"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="271" id="85W-li-slM"/>
+                                    <constraint firstAttribute="height" constant="226" id="FKb-zr-PaR"/>
+                                </constraints>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="flower-vertical" translatesAutoresizingMaskIntoConstraints="NO" id="caV-eG-3KR">
+                                <rect key="frame" x="-114" y="483" width="204" height="391"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="qzo-iz-eCw" secondAttribute="bottom" constant="32" id="0nS-0R-Nw6"/>
+                            <constraint firstItem="YY1-Ou-ao4" firstAttribute="centerY" secondItem="eEM-Ru-oxM" secondAttribute="centerY" constant="50" id="4Nn-jR-uiz"/>
+                            <constraint firstItem="myi-6m-wXL" firstAttribute="top" secondItem="j0I-qC-Iyc" secondAttribute="top" constant="22" id="BNN-u4-E6Y"/>
+                            <constraint firstItem="4It-Cc-Twc" firstAttribute="leading" secondItem="j0I-qC-Iyc" secondAttribute="leading" id="VZb-lw-XJu"/>
+                            <constraint firstAttribute="trailing" secondItem="YY1-Ou-ao4" secondAttribute="trailing" constant="-143" id="ZgJ-EF-5p8"/>
+                            <constraint firstItem="f0r-ER-EcM" firstAttribute="leading" secondItem="3Oz-wI-kFr" secondAttribute="leading" constant="-101.5" id="gPa-0a-Igr"/>
+                            <constraint firstItem="4It-Cc-Twc" firstAttribute="top" secondItem="myi-6m-wXL" secondAttribute="bottom" constant="8" id="jnz-CM-ebh"/>
+                            <constraint firstItem="qzo-iz-eCw" firstAttribute="top" secondItem="4It-Cc-Twc" secondAttribute="bottom" constant="24" id="kES-xD-3eo"/>
+                            <constraint firstItem="j0I-qC-Iyc" firstAttribute="trailing" secondItem="4It-Cc-Twc" secondAttribute="trailing" id="nAa-tU-72F"/>
+                            <constraint firstItem="fIO-JY-Wei" firstAttribute="centerY" secondItem="f0r-ER-EcM" secondAttribute="centerY" id="nv6-xo-Bwr"/>
+                            <constraint firstItem="qzo-iz-eCw" firstAttribute="centerX" secondItem="3Oz-wI-kFr" secondAttribute="centerX" id="og1-F2-RBS"/>
+                            <constraint firstItem="myi-6m-wXL" firstAttribute="centerX" secondItem="3Oz-wI-kFr" secondAttribute="centerX" id="v1W-0p-iuS"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="j0I-qC-Iyc"/>
                     </view>
+                    <navigationItem key="navigationItem" id="qBm-OG-0NT"/>
+                    <connections>
+                        <outletCollection property="homeButtons" destination="Bnm-0F-Bgw" collectionClass="NSMutableArray" id="YaE-o0-Tz6"/>
+                        <outletCollection property="homeButtons" destination="lu3-bn-0Oj" collectionClass="NSMutableArray" id="62G-7f-DdO"/>
+                        <outletCollection property="homeButtons" destination="mE7-ft-g9x" collectionClass="NSMutableArray" id="xXt-hs-cdT"/>
+                        <outletCollection property="homeButtons" destination="ZHC-xH-fhN" collectionClass="NSMutableArray" id="o14-fo-JNO"/>
+                        <outletCollection property="homeButtons" destination="dtN-go-L5t" collectionClass="NSMutableArray" id="pZt-M4-LUu"/>
+                        <outletCollection property="homeButtons" destination="Mda-OU-yLN" collectionClass="NSMutableArray" id="uid-9y-PTS"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="cfp-nA-mo5" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="692" y="109"/>
+            <point key="canvasLocation" x="1601.449275362319" y="108.48214285714285"/>
         </scene>
         <!--Image Slide View Controller-->
         <scene sceneID="OQ3-qr-yPf">
@@ -93,7 +251,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="KVJ-ms-HvQ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2355.072463768116" y="107.8125"/>
+            <point key="canvasLocation" x="3265.217391304348" y="107.8125"/>
         </scene>
         <!--Web View Controller-->
         <scene sceneID="Wjn-0g-hTa">
@@ -161,7 +319,44 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bHl-I8-f0w" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1444.9275362318842" y="107.8125"/>
+            <point key="canvasLocation" x="2586.9565217391305" y="107.8125"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="koe-lc-GXB">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="3od-PF-k23" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="bLq-Ac-mfq">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="UU9-sq-rrY" kind="relationship" relationship="rootViewController" id="gDu-n5-KeY"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="89V-gm-Ftp" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="691.304347826087" y="108.48214285714285"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="Flower" width="1220" height="936"/>
+        <image name="flower-vertical" width="194.5" height="253.5"/>
+        <namedColor name="butonColor-2">
+            <color red="0.96862745098039216" green="0.56470588235294117" blue="0.72156862745098038" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="butonColor-3">
+            <color red="1" green="0.41176470588235292" blue="0.70588235294117652" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="butonColor-4">
+            <color red="1" green="0.0" blue="0.49803921568627452" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="butonColor-5">
+            <color red="1" green="0.0" blue="0.49803921568627452" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="butonColor-6">
+            <color red="1" green="0.6470588235294118" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
 </document>
