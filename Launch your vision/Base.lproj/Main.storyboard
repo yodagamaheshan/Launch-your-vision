@@ -245,6 +245,9 @@ up</string>
                                                 <state key="normal">
                                                     <color key="titleColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
                                                 </state>
+                                                <variation key="heightClass=regular-widthClass=regular">
+                                                    <fontDescription key="fontDescription" name="AvenirNextCondensed-Bold" family="Avenir Next Condensed" pointSize="32"/>
+                                                </variation>
                                                 <connections>
                                                     <action selector="homeButtonTapped:" destination="UU9-sq-rrY" eventType="touchUpInside" id="l2c-UI-wd2"/>
                                                 </connections>
@@ -256,6 +259,9 @@ up</string>
                                                 <state key="normal">
                                                     <color key="titleColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
                                                 </state>
+                                                <variation key="heightClass=regular-widthClass=regular">
+                                                    <fontDescription key="fontDescription" name="AvenirNextCondensed-Bold" family="Avenir Next Condensed" pointSize="32"/>
+                                                </variation>
                                                 <connections>
                                                     <action selector="homeButtonTapped:" destination="UU9-sq-rrY" eventType="touchUpInside" id="bW0-0Y-sPM"/>
                                                 </connections>
@@ -272,6 +278,9 @@ up</string>
                                                 <state key="normal">
                                                     <color key="titleColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
                                                 </state>
+                                                <variation key="heightClass=regular-widthClass=regular">
+                                                    <fontDescription key="fontDescription" name="AvenirNextCondensed-Bold" family="Avenir Next Condensed" pointSize="42"/>
+                                                </variation>
                                                 <connections>
                                                     <action selector="homeButtonTapped:" destination="UU9-sq-rrY" eventType="touchUpInside" id="3YR-MM-lvS"/>
                                                 </connections>
@@ -283,6 +292,9 @@ up</string>
                                                 <state key="normal">
                                                     <color key="titleColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
                                                 </state>
+                                                <variation key="heightClass=regular-widthClass=regular">
+                                                    <fontDescription key="fontDescription" name="AvenirNextCondensed-Bold" family="Avenir Next Condensed" pointSize="42"/>
+                                                </variation>
                                                 <connections>
                                                     <action selector="homeButtonTapped:" destination="UU9-sq-rrY" eventType="touchUpInside" id="5BZ-ze-xVI"/>
                                                 </connections>
@@ -299,6 +311,9 @@ up</string>
                                                 <state key="normal">
                                                     <color key="titleColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
                                                 </state>
+                                                <variation key="heightClass=regular-widthClass=regular">
+                                                    <fontDescription key="fontDescription" name="AvenirNextCondensed-Bold" family="Avenir Next Condensed" pointSize="36"/>
+                                                </variation>
                                                 <connections>
                                                     <action selector="homeButtonTapped:" destination="UU9-sq-rrY" eventType="touchUpInside" id="KlM-lg-hhz"/>
                                                 </connections>
@@ -310,6 +325,9 @@ up</string>
                                                 <state key="normal">
                                                     <color key="titleColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
                                                 </state>
+                                                <variation key="heightClass=regular-widthClass=regular">
+                                                    <fontDescription key="fontDescription" name="AvenirNextCondensed-Bold" family="Avenir Next Condensed" pointSize="32"/>
+                                                </variation>
                                                 <connections>
                                                     <action selector="homeButtonTapped:" destination="UU9-sq-rrY" eventType="touchUpInside" id="eJa-pN-Xlw"/>
                                                 </connections>
