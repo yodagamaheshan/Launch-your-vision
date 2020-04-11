@@ -38,10 +38,13 @@ class SplashViewController: UIViewController {
         shineLabel!.numberOfLines = 0
         shineLabel!.text = "LAUNCH YOUR\nVision"
         shineLabel?.font = UIFont.boldSystemFont(ofSize: 50)
-        shineLabel?.textAlignment = NSTextAlignment(.center)
+        shineLabel?.textAlignment = .center
         shineLabel?.textColor = UIColor.red
         shineLabel!.backgroundColor = UIColor.clear
         shineLabel!.sizeToFit()
+        if UIDevice.current.userInterfaceIdiom == .pad{
+            shineLabel?.center = myStack.center
+        }
         myStack.addSubview(shineLabel!)
         
         navigationController?.navigationBar.isHidden = true
