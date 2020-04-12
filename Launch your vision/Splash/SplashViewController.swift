@@ -43,7 +43,7 @@ class SplashViewController: UIViewController {
              shineLabel?.font = UIFont.boldSystemFont(ofSize: 50)
         }
         shineLabel?.textAlignment = .center
-        shineLabel?.textColor = UIColor.getAppColor(color: .mainPink) 
+        shineLabel?.textColor = UIColor.getAppColor(color: .mainPink)
         shineLabel!.backgroundColor = UIColor.clear
         shineLabel!.sizeToFit()
         if UIDevice.current.userInterfaceIdiom == .pad{
