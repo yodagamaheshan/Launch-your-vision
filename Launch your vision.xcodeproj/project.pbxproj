@@ -23,7 +23,7 @@
 
 /* Begin PBXFileReference section */
 		56C26CD72440011500C7D4DD /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
-		56E39126243B808E000F6F46 /* Launch your vision.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Launch your vision.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		56E39126243B808E000F6F46 /* GLAM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GLAM.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		56E39129243B808E000F6F46 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		56E3912B243B808E000F6F46 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		56E39130243B808E000F6F46 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -74,7 +74,7 @@
 		56E39127243B808E000F6F46 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				56E39126243B808E000F6F46 /* Launch your vision.app */,
+				56E39126243B808E000F6F46 /* GLAM.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -158,9 +158,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		56E39125243B808E000F6F46 /* Launch your vision */ = {
+		56E39125243B808E000F6F46 /* GLAM */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 56E3913A243B8093000F6F46 /* Build configuration list for PBXNativeTarget "Launch your vision" */;
+			buildConfigurationList = 56E3913A243B8093000F6F46 /* Build configuration list for PBXNativeTarget "GLAM" */;
 			buildPhases = (
 				0ECC1F9FFC78739EB6BC91EB /* [CP] Check Pods Manifest.lock */,
 				56E39122243B808E000F6F46 /* Sources */,
@@ -172,9 +172,9 @@
 			);
 			dependencies = (
 			);
-			name = "Launch your vision";
+			name = GLAM;
 			productName = "Launch your vision";
-			productReference = 56E39126243B808E000F6F46 /* Launch your vision.app */;
+			productReference = 56E39126243B808E000F6F46 /* GLAM.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -205,7 +205,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				56E39125243B808E000F6F46 /* Launch your vision */,
+				56E39125243B808E000F6F46 /* GLAM */,
 			);
 		};
 /* End PBXProject section */
@@ -470,7 +470,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		56E3913A243B8093000F6F46 /* Build configuration list for PBXNativeTarget "Launch your vision" */ = {
+		56E3913A243B8093000F6F46 /* Build configuration list for PBXNativeTarget "GLAM" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				56E3913B243B8093000F6F46 /* Debug */,

@@ -36,12 +36,27 @@ class SplashViewController: UIViewController {
         //animation
         shineLabel = RQShineLabel()
         shineLabel!.numberOfLines = 0
-        shineLabel!.text = "LAUNCH YOUR\nVision"
-        if let customFont = UIFont(name: "AvenirNextCondensed-Bold", size: 50){
-             shineLabel?.font = customFont
-        } else {
-             shineLabel?.font = UIFont.boldSystemFont(ofSize: 50)
+        
+        if let fontOfTitle1  = UIFont(name: "AvenirNextCondensed-Bold",  size: 50), let fontOfTitle2 = UIFont(name: "BodoniSvtyTwoITCTT-Bold", size: 50){
+            
+            let title1 = "LAUNCH YOUR\n"
+            let title2 = "Vision"
+            
+            let attributForTitle1 = [ NSAttributedString.Key.font: fontOfTitle1 ]
+            let attributeForTitle2 = [ NSAttributedString.Key.font: fontOfTitle2 ]
+            
+            let title1AttributedSting = NSMutableAttributedString(string: title1, attributes: attributForTitle1)
+            let  title2AttributedSting = NSAttributedString(string: title2, attributes: attributeForTitle2)
+            
+            title1AttributedSting.append(title2AttributedSting)
+            
+            shineLabel?.attributedText = title1AttributedSting
+            
+        }else {
+            shineLabel!.text = "LAUNCH YOUR\nVision"
+            shineLabel?.font = UIFont.boldSystemFont(ofSize: 50)
         }
+        
         shineLabel?.textAlignment = .center
         shineLabel?.textColor = UIColor.getAppColor(color: .mainPink)
         shineLabel!.backgroundColor = UIColor.clear
