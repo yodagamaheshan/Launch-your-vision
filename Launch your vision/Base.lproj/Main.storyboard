@@ -12,7 +12,7 @@
         <!--Splash View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController storyboardIdentifier="SplashViewController" id="BYZ-38-t0r" customClass="SplashViewController" customModule="Launch_your_vision" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="SplashViewController" id="BYZ-38-t0r" customClass="SplashViewController" customModule="GLAM" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -211,7 +211,7 @@ up</string>
         <!--Home View Controller-->
         <scene sceneID="Kjs-1s-pa9">
             <objects>
-                <viewController storyboardIdentifier="HomeViewController" id="UU9-sq-rrY" customClass="HomeViewController" customModule="Launch_your_vision" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="HomeViewController" id="UU9-sq-rrY" customClass="HomeViewController" customModule="GLAM" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="3Oz-wI-kFr">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -416,7 +416,7 @@ up</string>
         <!--Image Slide View Controller-->
         <scene sceneID="OQ3-qr-yPf">
             <objects>
-                <viewController storyboardIdentifier="ImageSlideViewController" id="TBQ-HG-tEt" customClass="ImageSlideViewController" customModule="Launch_your_vision" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="ImageSlideViewController" id="TBQ-HG-tEt" customClass="ImageSlideViewController" customModule="GLAM" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="G3H-Vx-cvd">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -443,56 +443,6 @@ up</string>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="KVJ-ms-HvQ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="3466" y="108"/>
-        </scene>
-        <!--Web View Controller-->
-        <scene sceneID="Wjn-0g-hTa">
-            <objects>
-                <viewController storyboardIdentifier="WebViewController" id="auz-LF-LdB" customClass="WebViewController" customModule="Launch_your_vision" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="Sa3-Q1-e5Z">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="WrG-9W-5En">
-                                <rect key="frame" x="0.0" y="44" width="414" height="60"/>
-                                <color key="backgroundColor" systemColor="systemTealColor" red="0.35294117650000001" green="0.7843137255" blue="0.98039215690000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="60" id="PyL-7r-x6p"/>
-                                </constraints>
-                            </view>
-                            <wkWebView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="EEP-nw-Eoc">
-                                <rect key="frame" x="0.0" y="104" width="414" height="792"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <wkWebViewConfiguration key="configuration">
-                                    <audiovisualMediaTypes key="mediaTypesRequiringUserActionForPlayback" none="YES"/>
-                                    <wkPreferences key="preferences"/>
-                                </wkWebViewConfiguration>
-                            </wkWebView>
-                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" hidesWhenStopped="YES" animating="YES" style="large" translatesAutoresizingMaskIntoConstraints="NO" id="FCH-Sz-wT7">
-                                <rect key="frame" x="188.5" y="429.5" width="37" height="37"/>
-                            </activityIndicatorView>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <constraints>
-                            <constraint firstItem="EEP-nw-Eoc" firstAttribute="trailing" secondItem="d88-jR-ZgE" secondAttribute="trailing" id="I6c-8c-AVt"/>
-                            <constraint firstItem="WrG-9W-5En" firstAttribute="top" secondItem="d88-jR-ZgE" secondAttribute="top" id="PSd-14-yZp"/>
-                            <constraint firstItem="FCH-Sz-wT7" firstAttribute="centerX" secondItem="Sa3-Q1-e5Z" secondAttribute="centerX" id="WhS-zo-jMD"/>
-                            <constraint firstItem="WrG-9W-5En" firstAttribute="trailing" secondItem="d88-jR-ZgE" secondAttribute="trailing" id="hZa-R6-R4Z"/>
-                            <constraint firstItem="EEP-nw-Eoc" firstAttribute="leading" secondItem="d88-jR-ZgE" secondAttribute="leading" id="ikr-yg-Fpb"/>
-                            <constraint firstItem="WrG-9W-5En" firstAttribute="leading" secondItem="d88-jR-ZgE" secondAttribute="leading" id="oBl-yJ-4sZ"/>
-                            <constraint firstItem="FCH-Sz-wT7" firstAttribute="centerY" secondItem="Sa3-Q1-e5Z" secondAttribute="centerY" id="qaV-nn-2fS"/>
-                            <constraint firstItem="EEP-nw-Eoc" firstAttribute="top" secondItem="WrG-9W-5En" secondAttribute="bottom" id="rKf-At-Kci"/>
-                            <constraint firstAttribute="bottom" secondItem="EEP-nw-Eoc" secondAttribute="bottom" id="x0a-c2-FQC"/>
-                        </constraints>
-                        <viewLayoutGuide key="safeArea" id="d88-jR-ZgE"/>
-                    </view>
-                    <connections>
-                        <outlet property="activityIndicator" destination="FCH-Sz-wT7" id="Ykj-1l-U6C"/>
-                        <outlet property="webViewContainer" destination="EEP-nw-Eoc" id="zie-VT-e1i"/>
-                    </connections>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="vTj-3q-lc8" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1445" y="798"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="DVM-ll-lzF">

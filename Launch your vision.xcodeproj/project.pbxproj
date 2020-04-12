@@ -13,7 +13,6 @@
 		56E39131243B808E000F6F46 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 56E3912F243B808E000F6F46 /* Main.storyboard */; };
 		56E39133243B8092000F6F46 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 56E39132243B8092000F6F46 /* Assets.xcassets */; };
 		56E39136243B8092000F6F46 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 56E39134243B8092000F6F46 /* LaunchScreen.storyboard */; };
-		56E39143243B8497000F6F46 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56E39142243B8497000F6F46 /* WebViewController.swift */; };
 		56E39146243B8AD5000F6F46 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56E39145243B8AD5000F6F46 /* WebKit.framework */; };
 		56E39149243B8D16000F6F46 /* ImageSlideViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56E39148243B8D16000F6F46 /* ImageSlideViewController.swift */; };
 		56E3914B243B8D29000F6F46 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56E3914A243B8D29000F6F46 /* HomeViewController.swift */; };
@@ -30,7 +29,6 @@
 		56E39132243B8092000F6F46 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		56E39135243B8092000F6F46 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		56E39137243B8092000F6F46 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		56E39142243B8497000F6F46 /* WebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
 		56E39145243B8AD5000F6F46 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 		56E39148243B8D16000F6F46 /* ImageSlideViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageSlideViewController.swift; sourceTree = "<group>"; };
 		56E3914A243B8D29000F6F46 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
@@ -105,17 +103,8 @@
 			children = (
 				56E3914A243B8D29000F6F46 /* HomeViewController.swift */,
 				56E39147243B8CF5000F6F46 /* ImageSlider */,
-				56E3913F243B821E000F6F46 /* Web */,
 			);
 			path = Home;
-			sourceTree = "<group>";
-		};
-		56E3913F243B821E000F6F46 /* Web */ = {
-			isa = PBXGroup;
-			children = (
-				56E39142243B8497000F6F46 /* WebViewController.swift */,
-			);
-			path = Web;
 			sourceTree = "<group>";
 		};
 		56E39141243B824F000F6F46 /* Supportive files */ = {
@@ -274,7 +263,6 @@
 				56E3912C243B808E000F6F46 /* SceneDelegate.swift in Sources */,
 				56C26CD82440011500C7D4DD /* Extension.swift in Sources */,
 				56E39149243B8D16000F6F46 /* ImageSlideViewController.swift in Sources */,
-				56E39143243B8497000F6F46 /* WebViewController.swift in Sources */,
 				56E3914D243B8D3E000F6F46 /* SplashViewController.swift in Sources */,
 				56E3914B243B8D29000F6F46 /* HomeViewController.swift in Sources */,
 			);
