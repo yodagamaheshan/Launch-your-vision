@@ -37,7 +37,11 @@ class SplashViewController: UIViewController {
         shineLabel = RQShineLabel()
         shineLabel!.numberOfLines = 0
         shineLabel!.text = "LAUNCH YOUR\nVision"
-        shineLabel?.font = UIFont.boldSystemFont(ofSize: 50)
+        if let customFont = UIFont(name: "AvenirNextCondensed-Bold", size: 50){
+             shineLabel?.font = customFont
+        } else {
+             shineLabel?.font = UIFont.boldSystemFont(ofSize: 50)
+        }
         shineLabel?.textAlignment = .center
         shineLabel?.textColor = UIColor.red
         shineLabel!.backgroundColor = UIColor.clear

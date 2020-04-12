@@ -362,16 +362,31 @@ up</string>
                                     <constraint firstAttribute="height" constant="226" id="FKb-zr-PaR"/>
                                 </constraints>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="flower-vertical" translatesAutoresizingMaskIntoConstraints="NO" id="caV-eG-3KR">
-                                <rect key="frame" x="-114" y="483" width="204" height="391"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="flower-vertical" translatesAutoresizingMaskIntoConstraints="NO" id="caV-eG-3KR">
+                                <rect key="frame" x="-67" y="577.5" width="194.5" height="205.5"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="201.5" id="aoL-vu-np9">
+                                        <variation key="heightClass=regular-widthClass=compact" constant="150"/>
+                                        <variation key="heightClass=regular-widthClass=regular" constant="205.5"/>
+                                    </constraint>
+                                    <constraint firstAttribute="width" constant="194.5" id="oNl-Kn-zgG">
+                                        <variation key="heightClass=regular-widthClass=compact" constant="178.5"/>
+                                    </constraint>
+                                </constraints>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
                             <constraint firstAttribute="bottom" secondItem="qzo-iz-eCw" secondAttribute="bottom" constant="32" id="0nS-0R-Nw6"/>
                             <constraint firstItem="YY1-Ou-ao4" firstAttribute="centerY" secondItem="eEM-Ru-oxM" secondAttribute="centerY" constant="50" id="4Nn-jR-uiz"/>
+                            <constraint firstItem="caV-eG-3KR" firstAttribute="centerY" secondItem="mE7-ft-g9x" secondAttribute="centerY" constant="66" id="8Qy-Hj-k16">
+                                <variation key="heightClass=regular-widthClass=regular" constant="120"/>
+                            </constraint>
                             <constraint firstItem="myi-6m-wXL" firstAttribute="top" secondItem="j0I-qC-Iyc" secondAttribute="top" constant="22" id="BNN-u4-E6Y"/>
+                            <constraint firstItem="caV-eG-3KR" firstAttribute="leading" secondItem="3Oz-wI-kFr" secondAttribute="leading" constant="-113" id="RnT-vY-N0g">
+                                <variation key="heightClass=regular-widthClass=compact" constant="-93"/>
+                                <variation key="heightClass=regular-widthClass=regular" constant="-67"/>
+                            </constraint>
                             <constraint firstItem="4It-Cc-Twc" firstAttribute="leading" secondItem="j0I-qC-Iyc" secondAttribute="leading" id="VZb-lw-XJu"/>
                             <constraint firstAttribute="trailing" secondItem="YY1-Ou-ao4" secondAttribute="trailing" constant="-143" id="ZgJ-EF-5p8"/>
                             <constraint firstItem="f0r-ER-EcM" firstAttribute="leading" secondItem="3Oz-wI-kFr" secondAttribute="leading" constant="-101.5" id="gPa-0a-Igr"/>
