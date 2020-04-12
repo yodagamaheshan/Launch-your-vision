@@ -58,6 +58,10 @@ class ImageSlideViewController: UIViewController {
         setupViews()
     }
     
+    override func viewWillAppear(_ animated: Bool) {
+        navigationController?.navigationBar.isHidden = false
+    }
+    
     func setupViews(){
         
         navigationController?.navigationBar.isHidden = false
