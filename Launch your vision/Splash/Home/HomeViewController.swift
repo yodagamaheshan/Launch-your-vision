@@ -49,7 +49,7 @@ class HomeViewController: UIViewController {
             case 5:
                 button.setTitle("visit our\nstore".uppercased(), for: .normal)
             case 6:
-                button.setTitle("Book a low cost\ncoaching\nsession".uppercased(), for: .normal)
+                button.setTitle("Get Your\n FREE GIFT\n NOW!!! ".uppercased(), for: .normal)
             default:
                 button.setTitle("", for: .normal)
             }
