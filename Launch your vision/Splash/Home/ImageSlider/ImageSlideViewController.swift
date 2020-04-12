@@ -35,6 +35,10 @@ class ImageSlideViewController: UIViewController {
                 }
             case .Q2:
                 for i in 1 ... 20 {
+                    if i == 10{
+                        //buyer asked to remove
+                        continue
+                    }
                     imageArray.append(BundleImageSource(imageString: "Quotes2-\(i)"))
                 }
             }
