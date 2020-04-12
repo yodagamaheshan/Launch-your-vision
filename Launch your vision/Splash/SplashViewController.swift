@@ -70,7 +70,7 @@ class SplashViewController: UIViewController {
         getUpLabel.text = "Get\nUp".uppercased()
         loveYourSelfLabel.text = "love\nYourself".uppercased()
         afformLabel.text = "affirm \n your \n beliefs".uppercased()
-        makeThingsHappenLabel.text = "make\nthings\nhappen\n now".uppercased()
+        makeThingsHappenLabel.text = "make\nthings\nhappen\nnow".uppercased()
     }
     
     override func viewDidAppear(_ animated: Bool) {
