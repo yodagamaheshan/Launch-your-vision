@@ -43,7 +43,7 @@ class SplashViewController: UIViewController {
              shineLabel?.font = UIFont.boldSystemFont(ofSize: 50)
         }
         shineLabel?.textAlignment = .center
-        shineLabel?.textColor = UIColor.red
+        shineLabel?.textColor = UIColor.getAppColor(color: .mainPink) 
         shineLabel!.backgroundColor = UIColor.clear
         shineLabel!.sizeToFit()
         if UIDevice.current.userInterfaceIdiom == .pad{
@@ -69,7 +69,7 @@ class SplashViewController: UIViewController {
              self.nameLabel.alpha = 1
              self.bottumnFlower.alpha = 1
         }
-        DispatchQueue.main.asyncAfter(deadline: .now() + 3, execute: {
+        DispatchQueue.main.asyncAfter(deadline: .now() + 4, execute: {
             let vc = HomeViewController.make()
             self.goTo(viewController: vc)
         })

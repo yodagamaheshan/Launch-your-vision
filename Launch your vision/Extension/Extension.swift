@@ -20,7 +20,7 @@ extension UIColor{
         case mainPink = "mainn-pink"
     }
     
-    func getAppColor(color: AppColor) -> UIColor{
+    static func getAppColor(color: AppColor) -> UIColor{
         return UIColor(named: color.rawValue)!
     }
 }
