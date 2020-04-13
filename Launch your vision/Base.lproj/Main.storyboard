@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="2zs-l9-R2y">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="N8t-c5-cho">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
@@ -207,6 +207,51 @@ up</string>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1517.3913043478262" y="107.8125"/>
+        </scene>
+        <!--New Splash View Controller-->
+        <scene sceneID="Hf6-Wz-AJh">
+            <objects>
+                <viewController id="N8t-c5-cho" customClass="NewSplashViewController" customModule="GLAM" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="vhN-fD-UzS">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VWQ-ng-Gpr" customClass="RQShineLabel">
+                                <rect key="frame" x="137.5" y="179" width="139" height="135.5"/>
+                                <fontDescription key="fontDescription" name="Zapfino" family="Zapfino" pointSize="40"/>
+                                <color key="textColor" name="butonColor-4"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XJb-cl-rVm">
+                                <rect key="frame" x="156" y="418" width="103" height="109"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="44"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="splash-top-image" translatesAutoresizingMaskIntoConstraints="NO" id="vw9-OD-E54">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="83"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="83" id="APq-TN-70U"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="vw9-OD-E54" firstAttribute="top" secondItem="vhN-fD-UzS" secondAttribute="top" id="7n9-cH-m2D"/>
+                            <constraint firstItem="s4p-Gt-Khi" firstAttribute="trailing" secondItem="vw9-OD-E54" secondAttribute="trailing" id="C1j-xT-JPJ"/>
+                            <constraint firstItem="VWQ-ng-Gpr" firstAttribute="centerX" secondItem="vhN-fD-UzS" secondAttribute="centerX" id="Oyv-zU-77J"/>
+                            <constraint firstItem="vw9-OD-E54" firstAttribute="leading" secondItem="s4p-Gt-Khi" secondAttribute="leading" id="w5U-B8-nJN"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="s4p-Gt-Khi"/>
+                    </view>
+                    <connections>
+                        <outlet property="animatedLabel" destination="VWQ-ng-Gpr" id="V6t-cm-q29"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="L1g-a7-snG" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1515.9420289855075" y="829.6875"/>
         </scene>
         <!--Home View Controller-->
         <scene sceneID="Kjs-1s-pa9">
@@ -468,6 +513,7 @@ up</string>
         <image name="Flower" width="1220" height="936"/>
         <image name="flower-buttom" width="1560" height="480"/>
         <image name="flower-vertical" width="194.5" height="253.5"/>
+        <image name="splash-top-image" width="1242" height="236"/>
         <namedColor name="butonColor-1">
             <color red="1" green="0.6470588235294118" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>

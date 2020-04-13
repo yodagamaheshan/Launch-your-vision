@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5616D9BE244477AB0035EB1C /* NewSplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5616D9BD244477AB0035EB1C /* NewSplashViewController.swift */; };
+		5616D9C12444A1B90035EB1C /* AlegreyaSans-BlackItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 5616D9C02444A1B90035EB1C /* AlegreyaSans-BlackItalic.otf */; };
+		5616D9C32444A1E70035EB1C /* AlegreyaSans-Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = 5616D9C22444A1E70035EB1C /* AlegreyaSans-Black.otf */; };
 		56C26CD82440011500C7D4DD /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56C26CD72440011500C7D4DD /* Extension.swift */; };
 		56E3912A243B808E000F6F46 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56E39129243B808E000F6F46 /* AppDelegate.swift */; };
 		56E3912C243B808E000F6F46 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56E3912B243B808E000F6F46 /* SceneDelegate.swift */; };
@@ -21,6 +24,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5616D9BD244477AB0035EB1C /* NewSplashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewSplashViewController.swift; sourceTree = "<group>"; };
+		5616D9C02444A1B90035EB1C /* AlegreyaSans-BlackItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "AlegreyaSans-BlackItalic.otf"; sourceTree = "<group>"; };
+		5616D9C22444A1E70035EB1C /* AlegreyaSans-Black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "AlegreyaSans-Black.otf"; sourceTree = "<group>"; };
 		56C26CD72440011500C7D4DD /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
 		56E39126243B808E000F6F46 /* GLAM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GLAM.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		56E39129243B808E000F6F46 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -56,6 +62,15 @@
 			children = (
 			);
 			path = Introduction;
+			sourceTree = "<group>";
+		};
+		5616D9BF2444A17F0035EB1C /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				5616D9C22444A1E70035EB1C /* AlegreyaSans-Black.otf */,
+				5616D9C02444A1B90035EB1C /* AlegreyaSans-BlackItalic.otf */,
+			);
+			path = Font;
 			sourceTree = "<group>";
 		};
 		56C26CD62440010600C7D4DD /* Extension */ = {
@@ -101,6 +116,7 @@
 			isa = PBXGroup;
 			children = (
 				56E3914C243B8D3E000F6F46 /* SplashViewController.swift */,
+				5616D9BD244477AB0035EB1C /* NewSplashViewController.swift */,
 				56E3913E243B8213000F6F46 /* Home */,
 			);
 			path = Splash;
@@ -118,6 +134,7 @@
 		56E39141243B824F000F6F46 /* Supportive files */ = {
 			isa = PBXGroup;
 			children = (
+				5616D9BF2444A17F0035EB1C /* Font */,
 				56E39129243B808E000F6F46 /* AppDelegate.swift */,
 				56E3912B243B808E000F6F46 /* SceneDelegate.swift */,
 				56E39132243B8092000F6F46 /* Assets.xcassets */,
@@ -214,7 +231,9 @@
 			files = (
 				56E39136243B8092000F6F46 /* LaunchScreen.storyboard in Resources */,
 				56E39133243B8092000F6F46 /* Assets.xcassets in Resources */,
+				5616D9C12444A1B90035EB1C /* AlegreyaSans-BlackItalic.otf in Resources */,
 				56E39131243B808E000F6F46 /* Main.storyboard in Resources */,
+				5616D9C32444A1E70035EB1C /* AlegreyaSans-Black.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,6 +292,7 @@
 				56E39149243B8D16000F6F46 /* ImageSlideViewController.swift in Sources */,
 				56E3914D243B8D3E000F6F46 /* SplashViewController.swift in Sources */,
 				56E3914B243B8D29000F6F46 /* HomeViewController.swift in Sources */,
+				5616D9BE244477AB0035EB1C /* NewSplashViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
