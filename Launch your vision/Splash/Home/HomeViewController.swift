@@ -61,10 +61,10 @@ class HomeViewController: UIViewController {
         
         switch sender.tag {
         case 1:
-            vc.type = .IAmCard
+            vc.type = .DotheWork
             goTo(viewController: vc)
         case 2:
-            vc.type = .DotheWork
+            vc.type = .IAmCard
             goTo(viewController: vc)
         case 3:
             vc.type = .Q1
