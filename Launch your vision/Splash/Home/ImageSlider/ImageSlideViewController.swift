@@ -26,7 +26,7 @@ class ImageSlideViewController: UIViewController {
                 }
             
             case .DotheWork:
-                for i in 1 ... 9 {
+                for i in 1 ... 21 {
                     imageArray.append(BundleImageSource(imageString: "DoTheWork-\(i)"))
                 }
             case .Q1:
