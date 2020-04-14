@@ -52,37 +52,38 @@ class NewSplashViewController: UIViewController {
     }
     
     override func viewDidAppear(_ animated: Bool) {
-        DispatchQueue.main.asyncAfter(deadline: .now() + 0.5, execute: {
-            
-            UIView.animate(withDuration: 2) {
-                                  self.sub2.isHidden = false
-                   }
-            
-        })
-        DispatchQueue.main.asyncAfter(deadline: .now() + 0.8, execute: {
-            
-            UIView.animate(withDuration: 2) {
-            self.sub3.isHidden = false
-            }
-            
-        })
-        
-        DispatchQueue.main.asyncAfter(deadline: .now() + 1.1, execute: {
+        navigationController?.interactivePopGestureRecognizer?.isEnabled = false
 
+        DispatchQueue.main.asyncAfter(deadline: .now() + 1.1, execute: {
+            
             UIView.animate(withDuration: 1, animations: {
                 self.sub1.isHidden = false
             }) { (bool) in
-                UIView.animate(withDuration: 1, animations: {
-                    self.sub2.isHidden = false
-                }) { (bool) in
+                if bool{
                     UIView.animate(withDuration: 1, animations: {
-                        self.sub3.isHidden = false
+                        self.sub2.isHidden = false
                     }) { (bool) in
-                        UIView.animate(withDuration: 2) {
-                            self.sub4.isHidden = false
+                        if bool{
+                            UIView.animate(withDuration: 1, animations: {
+                                self.sub3.isHidden = false
+                            }) { (bool) in
+                                if bool{
+                                    UIView.animate(withDuration: 1, animations: {
+                                        self.sub4.isHidden = false
+                                    }) { (isComplete) in
+                                        DispatchQueue.main.asyncAfter(deadline: .now() + 1, execute: {
+                                            let vc = InstructionViewController.make()
+                                            self.goTo(viewController: vc)
+                                        })
+                                    }
+                                }
+                                
+                            }
                         }
+                        
                     }
                 }
+                
             }
             
         })

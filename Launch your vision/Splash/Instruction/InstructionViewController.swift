@@ -10,6 +10,11 @@ import UIKit
 
 class InstructionViewController: UIViewController {
 
+    static func make() -> InstructionViewController {
+        let storyboard = UIStoryboard(name: "Main", bundle: nil)
+        let viewController = storyboard.instantiateViewController(withIdentifier: String(describing: InstructionViewController.self)) as? InstructionViewController
+        return viewController!
+    }
     
     @IBOutlet weak var instructionTitle: UILabel!
     @IBOutlet var largDescriptions: [UILabel]!

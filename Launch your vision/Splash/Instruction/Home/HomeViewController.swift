@@ -28,8 +28,6 @@ class HomeViewController: UIViewController {
     
     override func viewWillAppear(_ animated: Bool) {
          navigationController?.navigationBar.isHidden = true
-        navigationController?.interactivePopGestureRecognizer?.isEnabled = false
-
     }
     
     func setupViews(){
