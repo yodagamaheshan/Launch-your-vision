@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="FZJ-2J-eUS">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="N8t-c5-cho">
     <device id="retina4_7" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
@@ -230,7 +230,7 @@ up</string>
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VWQ-ng-Gpr" customClass="RQShineLabel">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalCompressionResistancePriority="1000" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VWQ-ng-Gpr" customClass="RQShineLabel">
                                 <rect key="frame" x="93.5" y="68" width="188.5" height="144"/>
                                 <string key="text">21 Days to 
 launch Your
@@ -244,46 +244,58 @@ Vision</string>
                                     <constraint firstAttribute="height" constant="83" id="APq-TN-70U"/>
                                 </constraints>
                             </imageView>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="nO6-UQ-Y13">
-                                <rect key="frame" x="0.0" y="212" width="375" height="405"/>
+                            <view contentMode="scaleToFill" verticalCompressionResistancePriority="1000" translatesAutoresizingMaskIntoConstraints="NO" id="nO6-UQ-Y13">
+                                <rect key="frame" x="0.0" y="212" width="375" height="305"/>
                                 <subviews>
-                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fHd-aN-vcP">
-                                        <rect key="frame" x="20" y="202.5" width="330" height="0.0"/>
+                                    <view contentMode="scaleToFill" verticalCompressionResistancePriority="1000" translatesAutoresizingMaskIntoConstraints="NO" id="fHd-aN-vcP">
+                                        <rect key="frame" x="20" y="136.5" width="330" height="32"/>
                                         <subviews>
-                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="25" translatesAutoresizingMaskIntoConstraints="NO" id="Yy7-72-PHY">
-                                                <rect key="frame" x="0.0" y="0.0" width="330" height="0.0"/>
+                                            <stackView opaque="NO" contentMode="scaleToFill" verticalCompressionResistancePriority="1000" axis="vertical" distribution="equalSpacing" spacing="13" translatesAutoresizingMaskIntoConstraints="NO" id="Yy7-72-PHY">
+                                                <rect key="frame" x="0.0" y="16" width="330" height="0.0"/>
                                                 <subviews>
-                                                    <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="GET UP" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eEc-Hz-TVd" customClass="RQShineLabel">
-                                                        <rect key="frame" x="78.5" y="0.0" width="121.5" height="0.0"/>
+                                                    <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="237" verticalCompressionResistancePriority="752" text="GET UP" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="40" translatesAutoresizingMaskIntoConstraints="NO" id="eEc-Hz-TVd" customClass="RQShineLabel">
+                                                        <rect key="frame" x="0.0" y="0.0" width="453.5" height="0.0"/>
                                                         <fontDescription key="fontDescription" name="AlegreyaSans-BlackItalic" family="Alegreya Sans" pointSize="40"/>
                                                         <color key="textColor" name="subtitle color-1"/>
                                                         <nil key="highlightedColor"/>
+                                                        <variation key="heightClass=regular-widthClass=compact">
+                                                            <fontDescription key="fontDescription" name="AlegreyaSans-BlackItalic" family="Alegreya Sans" pointSize="46"/>
+                                                        </variation>
                                                     </label>
-                                                    <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="LOVE YOUR SELF" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Dk3-EM-SE2" customClass="RQShineLabel">
-                                                        <rect key="frame" x="0.0" y="0.0" width="278.5" height="0.0"/>
+                                                    <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="237" verticalCompressionResistancePriority="752" text="LOVE YOUR SELF" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="40" translatesAutoresizingMaskIntoConstraints="NO" id="Dk3-EM-SE2" customClass="RQShineLabel">
+                                                        <rect key="frame" x="0.0" y="0.0" width="453.5" height="0.0"/>
                                                         <fontDescription key="fontDescription" name="AlegreyaSans-BlackItalic" family="Alegreya Sans" pointSize="40"/>
                                                         <color key="textColor" name="subtitle color-2"/>
                                                         <nil key="highlightedColor"/>
+                                                        <variation key="heightClass=regular-widthClass=compact">
+                                                            <fontDescription key="fontDescription" name="AlegreyaSans-BlackItalic" family="Alegreya Sans" pointSize="46"/>
+                                                        </variation>
                                                     </label>
-                                                    <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="AFFIRM YOUR  \nBELIEF" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0Zm-07-wcv" customClass="RQShineLabel">
-                                                        <rect key="frame" x="-64.5" y="0.0" width="407.5" height="0.0"/>
+                                                    <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="237" verticalCompressionResistancePriority="752" text="AFFIRM YOUR  BELIEF" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="40" translatesAutoresizingMaskIntoConstraints="NO" id="0Zm-07-wcv" customClass="RQShineLabel">
+                                                        <rect key="frame" x="0.0" y="0.0" width="453.5" height="0.0"/>
                                                         <fontDescription key="fontDescription" name="AlegreyaSans-BlackItalic" family="Alegreya Sans" pointSize="40"/>
                                                         <color key="textColor" name="subtitle color-3"/>
                                                         <nil key="highlightedColor"/>
+                                                        <variation key="heightClass=regular-widthClass=compact">
+                                                            <fontDescription key="fontDescription" name="AlegreyaSans-BlackItalic" family="Alegreya Sans" pointSize="46"/>
+                                                        </variation>
                                                     </label>
-                                                    <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="MAKE IT HAPPEN NOW" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UoY-XH-7Wc" customClass="RQShineLabel">
-                                                        <rect key="frame" x="-58" y="0.0" width="394.5" height="0.0"/>
+                                                    <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="237" verticalCompressionResistancePriority="752" text="MAKE IT HAPPEN NOW" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="40" translatesAutoresizingMaskIntoConstraints="NO" id="UoY-XH-7Wc" customClass="RQShineLabel">
+                                                        <rect key="frame" x="0.0" y="0.0" width="453.5" height="0.0"/>
                                                         <fontDescription key="fontDescription" name="AlegreyaSans-BlackItalic" family="Alegreya Sans" pointSize="40"/>
                                                         <color key="textColor" name="subtitle color-4"/>
                                                         <nil key="highlightedColor"/>
+                                                        <variation key="heightClass=regular-widthClass=compact">
+                                                            <fontDescription key="fontDescription" name="AlegreyaSans-BlackItalic" family="Alegreya Sans" pointSize="46"/>
+                                                        </variation>
                                                     </label>
                                                 </subviews>
                                             </stackView>
                                         </subviews>
                                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <constraints>
-                                            <constraint firstItem="Yy7-72-PHY" firstAttribute="top" secondItem="fHd-aN-vcP" secondAttribute="top" id="2My-m6-rqj"/>
-                                            <constraint firstAttribute="bottom" secondItem="Yy7-72-PHY" secondAttribute="bottom" id="Nd7-It-TQd"/>
+                                            <constraint firstItem="Yy7-72-PHY" firstAttribute="top" secondItem="fHd-aN-vcP" secondAttribute="top" constant="16" id="2My-m6-rqj"/>
+                                            <constraint firstAttribute="bottom" secondItem="Yy7-72-PHY" secondAttribute="bottom" constant="16" id="Nd7-It-TQd"/>
                                             <constraint firstItem="Yy7-72-PHY" firstAttribute="leading" secondItem="fHd-aN-vcP" secondAttribute="leading" id="gP7-Un-M77"/>
                                             <constraint firstAttribute="trailing" secondItem="Yy7-72-PHY" secondAttribute="trailing" id="xmb-mV-DwA"/>
                                         </constraints>
@@ -298,46 +310,43 @@ Vision</string>
                                     <constraint firstItem="fHd-aN-vcP" firstAttribute="centerY" secondItem="nO6-UQ-Y13" secondAttribute="centerY" id="thr-uT-LBa"/>
                                 </constraints>
                             </view>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="corner-image" translatesAutoresizingMaskIntoConstraints="NO" id="ZmK-Ph-i1w">
-                                <rect key="frame" x="0.0" y="617" width="50" height="50"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalCompressionResistancePriority="250" image="corner-image" translatesAutoresizingMaskIntoConstraints="NO" id="ZmK-Ph-i1w">
+                                <rect key="frame" x="0.0" y="517" width="150" height="150"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="ZmK-Ph-i1w" secondAttribute="height" multiplier="1:1" id="Ecc-Oj-voP"/>
-                                    <constraint firstAttribute="height" relation="lessThanOrEqual" constant="50" id="Gbe-LM-ICh"/>
-                                    <constraint firstAttribute="width" relation="lessThanOrEqual" constant="137" id="vYz-fG-ngo"/>
+                                    <constraint firstAttribute="height" relation="lessThanOrEqual" constant="150" id="Gbe-LM-ICh"/>
                                 </constraints>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="WWW.THEGLAMCOACH.COM" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lQJ-2e-Lya" customClass="RQShineLabel">
-                                <rect key="frame" x="59.5" y="622.5" width="256.5" height="25.5"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="25.5" id="zUl-l2-K6y"/>
-                                </constraints>
+                                <rect key="frame" x="59.5" y="542" width="256.5" height="25.5"/>
                                 <fontDescription key="fontDescription" name="AlegreyaSans-Black" family="Alegreya Sans" pointSize="21"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo-transperent-image" translatesAutoresizingMaskIntoConstraints="NO" id="IvN-dc-Rw0">
-                                <rect key="frame" x="276" y="561" width="91" height="91"/>
+                                <rect key="frame" x="277" y="564" width="90" height="90"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="91" id="rT2-cz-1qB"/>
-                                    <constraint firstAttribute="height" relation="lessThanOrEqual" constant="91" id="ySo-2g-HBc"/>
+                                    <constraint firstAttribute="height" relation="lessThanOrEqual" constant="90" id="BRL-3i-aJi"/>
+                                    <constraint firstAttribute="width" secondItem="IvN-dc-Rw0" secondAttribute="height" multiplier="1:1" id="s5U-db-bqy"/>
                                 </constraints>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
+                            <constraint firstItem="ZmK-Ph-i1w" firstAttribute="top" secondItem="nO6-UQ-Y13" secondAttribute="bottom" id="3ef-T0-FAj"/>
                             <constraint firstAttribute="bottom" secondItem="ZmK-Ph-i1w" secondAttribute="bottom" id="44R-H6-OkS"/>
-                            <constraint firstAttribute="bottom" secondItem="IvN-dc-Rw0" secondAttribute="bottom" constant="15" id="7c5-S3-KBG"/>
                             <constraint firstItem="vw9-OD-E54" firstAttribute="top" secondItem="vhN-fD-UzS" secondAttribute="top" id="7n9-cH-m2D"/>
-                            <constraint firstItem="s4p-Gt-Khi" firstAttribute="trailing" secondItem="IvN-dc-Rw0" secondAttribute="trailing" constant="8" id="Bsm-oO-5PK"/>
+                            <constraint firstItem="s4p-Gt-Khi" firstAttribute="trailing" secondItem="IvN-dc-Rw0" secondAttribute="trailing" constant="8" id="Ap0-72-u5i"/>
                             <constraint firstItem="s4p-Gt-Khi" firstAttribute="trailing" secondItem="vw9-OD-E54" secondAttribute="trailing" id="C1j-xT-JPJ"/>
                             <constraint firstItem="nO6-UQ-Y13" firstAttribute="top" secondItem="VWQ-ng-Gpr" secondAttribute="bottom" id="CKb-5b-X4j"/>
                             <constraint firstItem="ZmK-Ph-i1w" firstAttribute="leading" secondItem="s4p-Gt-Khi" secondAttribute="leading" id="FId-9g-XR5"/>
                             <constraint firstItem="VWQ-ng-Gpr" firstAttribute="centerX" secondItem="vhN-fD-UzS" secondAttribute="centerX" id="Oyv-zU-77J"/>
-                            <constraint firstItem="ZmK-Ph-i1w" firstAttribute="top" secondItem="nO6-UQ-Y13" secondAttribute="bottom" id="X0C-Pe-LQj"/>
+                            <constraint firstItem="IvN-dc-Rw0" firstAttribute="top" secondItem="lQJ-2e-Lya" secondAttribute="bottom" constant="-3.5" id="Pbe-32-434"/>
+                            <constraint firstAttribute="bottom" secondItem="IvN-dc-Rw0" secondAttribute="bottom" constant="13" id="R5S-ml-WwT"/>
                             <constraint firstItem="VWQ-ng-Gpr" firstAttribute="top" secondItem="vw9-OD-E54" secondAttribute="bottom" constant="-15" id="ZyP-KQ-LJq"/>
-                            <constraint firstItem="ZmK-Ph-i1w" firstAttribute="top" secondItem="lQJ-2e-Lya" secondAttribute="bottom" constant="-31" id="awG-Ws-h7l"/>
                             <constraint firstItem="s4p-Gt-Khi" firstAttribute="trailing" secondItem="nO6-UQ-Y13" secondAttribute="trailing" id="cWd-3L-uy9"/>
+                            <constraint firstItem="lQJ-2e-Lya" firstAttribute="centerX" secondItem="vhN-fD-UzS" secondAttribute="centerX" id="eZ4-OS-8gH"/>
+                            <constraint firstItem="lQJ-2e-Lya" firstAttribute="top" secondItem="nO6-UQ-Y13" secondAttribute="bottom" constant="25" id="oBJ-HH-gx0"/>
                             <constraint firstItem="vw9-OD-E54" firstAttribute="leading" secondItem="s4p-Gt-Khi" secondAttribute="leading" id="w5U-B8-nJN"/>
-                            <constraint firstItem="lQJ-2e-Lya" firstAttribute="centerX" secondItem="vhN-fD-UzS" secondAttribute="centerX" id="wmM-VV-Ms8"/>
                             <constraint firstItem="nO6-UQ-Y13" firstAttribute="leading" secondItem="s4p-Gt-Khi" secondAttribute="leading" id="xvk-vn-1RH"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="s4p-Gt-Khi"/>

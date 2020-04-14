@@ -52,7 +52,6 @@ class NewSplashViewController: UIViewController {
     }
     
     override func viewDidAppear(_ animated: Bool) {
-        animatedLabel.shine()
         DispatchQueue.main.asyncAfter(deadline: .now() + 0.5, execute: {
             
             UIView.animate(withDuration: 2) {
