@@ -80,7 +80,7 @@ class HomeViewController: UIViewController {
                 UIApplication.shared.open(url, options: [:], completionHandler: nil)
             }
         case 6:
-            guard let url = URL(string: "https://sonjiapeltonsam.com/coaching-packages/") else {
+            guard let url = URL(string: "https://sonjiapeltonsam.com/") else {
                 return
             }
             if UIApplication.shared.canOpenURL(url) {
