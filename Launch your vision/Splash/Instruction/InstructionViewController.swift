@@ -15,15 +15,19 @@ class InstructionViewController: UIViewController {
     @IBOutlet var largDescriptions: [UILabel]!
     
     @IBOutlet var smallDescriptions: [UILabel]!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         setUpViews()
         // Do any additional setup after loading the view.
     }
+    
     @IBAction func webLinkButtonTapped(_ sender: Any) {
     }
     
     @IBAction func skipButtonTapped(_ sender: Any) {
+        let vc = HomeViewController.make()
+        goTo(viewController: vc)
     }
     
     func setUpViews(){

@@ -416,10 +416,18 @@ Vision</string>
                                         </attributedString>
                                         <nil key="highlightedColor"/>
                                     </label>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="right-flower" translatesAutoresizingMaskIntoConstraints="NO" id="JH4-sD-wSZ">
+                                        <rect key="frame" x="247" y="190.5" width="128" height="131"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="131" id="Zvv-jU-2gS"/>
+                                            <constraint firstAttribute="width" secondItem="JH4-sD-wSZ" secondAttribute="height" multiplier="128:131" id="ffT-58-YH7"/>
+                                        </constraints>
+                                    </imageView>
                                 </subviews>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                 <constraints>
                                     <constraint firstItem="qAQ-7t-kNQ" firstAttribute="top" secondItem="KLf-ky-Rvq" secondAttribute="top" id="5e9-WP-7qX"/>
+                                    <constraint firstAttribute="trailing" secondItem="JH4-sD-wSZ" secondAttribute="trailing" id="C0g-ou-6pL"/>
                                     <constraint firstAttribute="trailing" secondItem="aUC-qi-TnA" secondAttribute="trailing" constant="30" id="Db6-ue-I7v"/>
                                     <constraint firstItem="aUC-qi-TnA" firstAttribute="top" secondItem="qAQ-7t-kNQ" secondAttribute="bottom" constant="50" id="FyS-PJ-3t3"/>
                                     <constraint firstAttribute="bottom" secondItem="aUC-qi-TnA" secondAttribute="bottom" id="Hoz-qg-XuA"/>
@@ -427,6 +435,7 @@ Vision</string>
                                     <constraint firstItem="aUC-qi-TnA" firstAttribute="leading" secondItem="KLf-ky-Rvq" secondAttribute="leading" constant="30" id="TXb-NC-7Rv"/>
                                     <constraint firstAttribute="trailing" secondItem="qAQ-7t-kNQ" secondAttribute="trailing" constant="30" id="USV-AC-3bH"/>
                                     <constraint firstItem="aUC-qi-TnA" firstAttribute="height" secondItem="qAQ-7t-kNQ" secondAttribute="height" multiplier="7:5" id="qRi-df-p1o"/>
+                                    <constraint firstItem="JH4-sD-wSZ" firstAttribute="centerY" secondItem="aUC-qi-TnA" secondAttribute="centerY" id="ulO-sn-n4I"/>
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="IGd-lF-0GL">
@@ -517,7 +526,7 @@ cards. swipe left to move
                                 </constraints>
                             </view>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="flower-vertical-rotated" translatesAutoresizingMaskIntoConstraints="NO" id="NS8-es-ccb">
-                                <rect key="frame" x="-120" y="62" width="194" height="319"/>
+                                <rect key="frame" x="-131" y="62" width="194" height="319"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="319" id="2p7-a0-TBU"/>
                                     <constraint firstAttribute="width" constant="194" id="5uz-AJ-j6o"/>
@@ -530,10 +539,6 @@ cards. swipe left to move
                                     <constraint firstAttribute="height" constant="1" id="J3T-NW-erN"/>
                                 </constraints>
                             </view>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="flower-vertical-rotated" translatesAutoresizingMaskIntoConstraints="NO" id="JH4-sD-wSZ">
-                                <rect key="frame" x="329" y="160" width="212" height="271"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
@@ -550,7 +555,7 @@ cards. swipe left to move
                             <constraint firstItem="KLf-ky-Rvq" firstAttribute="leading" secondItem="8ZU-QL-qLL" secondAttribute="leading" id="jZU-HI-U1X"/>
                             <constraint firstItem="8ZU-QL-qLL" firstAttribute="trailing" secondItem="IGd-lF-0GL" secondAttribute="trailing" id="kdJ-vN-1GE"/>
                             <constraint firstItem="FBJ-mh-9B6" firstAttribute="top" secondItem="8ZU-QL-qLL" secondAttribute="top" id="oig-dh-aHY"/>
-                            <constraint firstItem="NS8-es-ccb" firstAttribute="leading" secondItem="Wfm-oj-b2j" secondAttribute="leading" constant="-120" id="qCO-Dw-KNe"/>
+                            <constraint firstItem="NS8-es-ccb" firstAttribute="leading" secondItem="Wfm-oj-b2j" secondAttribute="leading" constant="-131" id="qCO-Dw-KNe"/>
                             <constraint firstAttribute="trailingMargin" secondItem="Sog-Ux-v9z" secondAttribute="trailing" constant="120" id="rQ3-TE-PAk"/>
                             <constraint firstItem="8ZU-QL-qLL" firstAttribute="trailing" secondItem="KLf-ky-Rvq" secondAttribute="trailing" id="sWk-Cs-3tc"/>
                             <constraint firstItem="IGd-lF-0GL" firstAttribute="top" secondItem="Sog-Ux-v9z" secondAttribute="bottom" constant="4" id="vF7-Vz-BEj"/>
@@ -834,6 +839,7 @@ cards. swipe left to move
         <image name="flower-vertical-rotated" width="389" height="507"/>
         <image name="intro-top-right-flover" width="487" height="385"/>
         <image name="logo-transperent-image" width="1242" height="1245"/>
+        <image name="right-flower" width="466" height="466"/>
         <image name="splash-top-image" width="1242" height="236"/>
         <namedColor name="butonColor-1">
             <color red="1" green="0.6470588235294118" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
