@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="N8t-c5-cho">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="FZJ-2J-eUS">
     <device id="retina4_7" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
@@ -9,6 +9,12 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <customFonts key="customFonts">
+        <array key="Adumu.ttf">
+            <string>Adumu</string>
+        </array>
+        <array key="Aileron-HeavyItalic.otf">
+            <string>Aileron-HeavyItalic</string>
+        </array>
         <array key="AlegreyaSans-Black.otf">
             <string>AlegreyaSans-Black</string>
         </array>
@@ -356,13 +362,206 @@ Vision</string>
                     <view key="view" contentMode="scaleToFill" id="Wfm-oj-b2j">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="intro-top-right-flover" translatesAutoresizingMaskIntoConstraints="NO" id="EQh-Qa-pu6">
+                                <rect key="frame" x="242" y="0.0" width="133" height="105"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="EQh-Qa-pu6" secondAttribute="height" multiplier="487:385" id="Zad-XS-9RT"/>
+                                    <constraint firstAttribute="width" constant="133" id="cKs-OZ-hNx"/>
+                                </constraints>
+                            </imageView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="FBJ-mh-9B6">
+                                <rect key="frame" x="0.0" y="0.0" width="242" height="90"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="INSTRUCTIONS" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5aO-Iv-J5X">
+                                        <rect key="frame" x="55.5" y="29.5" width="131" height="31"/>
+                                        <fontDescription key="fontDescription" name="Adumu" family="Adumu" pointSize="20"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <constraints>
+                                    <constraint firstItem="5aO-Iv-J5X" firstAttribute="centerX" secondItem="FBJ-mh-9B6" secondAttribute="centerX" id="E3D-bl-fH0"/>
+                                    <constraint firstAttribute="height" constant="90" id="PlN-RT-AeV"/>
+                                    <constraint firstItem="5aO-Iv-J5X" firstAttribute="centerY" secondItem="FBJ-mh-9B6" secondAttribute="centerY" id="kps-gG-63a"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="KLf-ky-Rvq">
+                                <rect key="frame" x="0.0" y="90" width="375" height="341"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qAQ-7t-kNQ">
+                                        <rect key="frame" x="30" y="0.0" width="315" height="142"/>
+                                        <attributedString key="attributedText">
+                                            <fragment content="This app has 21 days of prompts To help you get a jumpstart on reaching your goals. ">
+                                                <attributes>
+                                                    <font key="NSFont" size="17" name="Aileron-Heavy"/>
+                                                    <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" lineSpacing="5" tighteningFactorForTruncation="0.0"/>
+                                                </attributes>
+                                            </fragment>
+                                        </attributedString>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aUC-qi-TnA">
+                                        <rect key="frame" x="30" y="142" width="315" height="199"/>
+                                        <attributedString key="attributedText">
+                                            <fragment content="You also have scriptures, quotes, &amp; affirmations. These help ignite, motivate, &amp; inspire you to reach your desired results.">
+                                                <attributes>
+                                                    <font key="NSFont" size="17" name="Aileron-Heavy"/>
+                                                    <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" lineSpacing="5" tighteningFactorForTruncation="0.0"/>
+                                                </attributes>
+                                            </fragment>
+                                        </attributedString>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <constraints>
+                                    <constraint firstItem="qAQ-7t-kNQ" firstAttribute="top" secondItem="KLf-ky-Rvq" secondAttribute="top" id="5e9-WP-7qX"/>
+                                    <constraint firstAttribute="trailing" secondItem="aUC-qi-TnA" secondAttribute="trailing" constant="30" id="Db6-ue-I7v"/>
+                                    <constraint firstItem="aUC-qi-TnA" firstAttribute="top" secondItem="qAQ-7t-kNQ" secondAttribute="bottom" id="FyS-PJ-3t3"/>
+                                    <constraint firstAttribute="bottom" secondItem="aUC-qi-TnA" secondAttribute="bottom" id="Hoz-qg-XuA"/>
+                                    <constraint firstItem="qAQ-7t-kNQ" firstAttribute="leading" secondItem="KLf-ky-Rvq" secondAttribute="leading" constant="30" id="RgU-MV-SVU"/>
+                                    <constraint firstItem="aUC-qi-TnA" firstAttribute="leading" secondItem="KLf-ky-Rvq" secondAttribute="leading" constant="30" id="TXb-NC-7Rv"/>
+                                    <constraint firstAttribute="trailing" secondItem="qAQ-7t-kNQ" secondAttribute="trailing" constant="30" id="USV-AC-3bH"/>
+                                    <constraint firstItem="aUC-qi-TnA" firstAttribute="height" secondItem="qAQ-7t-kNQ" secondAttribute="height" multiplier="7:5" id="qRi-df-p1o"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="IGd-lF-0GL">
+                                <rect key="frame" x="0.0" y="440" width="375" height="227"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="blr-il-XPM">
+                                        <rect key="frame" x="30" y="4" width="315" height="131"/>
+                                        <attributedString key="attributedText">
+                                            <fragment>
+                                                <string key="content">next you will find a page with 
+6 squares. Click on each square
+and you will find prompts, 
+affirmations, scriptures,&amp; quote
+cards. swipe left to move
+</string>
+                                                <attributes>
+                                                    <font key="NSFont" size="13" name="Aileron-HeavyItalic"/>
+                                                    <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                </attributes>
+                                            </fragment>
+                                            <fragment content="to the next card.">
+                                                <attributes>
+                                                    <font key="NSFont" size="13" name="Aileron-HeavyItalic"/>
+                                                    <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" lineSpacing="5" tighteningFactorForTruncation="0.0"/>
+                                                </attributes>
+                                            </fragment>
+                                        </attributedString>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BiP-Tp-GxW">
+                                        <rect key="frame" x="30" y="135" width="315" height="44"/>
+                                        <attributedString key="attributedText">
+                                            <fragment>
+                                                <string key="content">click on the last square on the
+</string>
+                                                <attributes>
+                                                    <font key="NSFont" size="12" name="Aileron-HeavyItalic"/>
+                                                    <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                </attributes>
+                                            </fragment>
+                                            <fragment content="right to get a free gift!!!">
+                                                <attributes>
+                                                    <font key="NSFont" size="12" name="Aileron-HeavyItalic"/>
+                                                    <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" lineSpacing="5" tighteningFactorForTruncation="0.0"/>
+                                                </attributes>
+                                            </fragment>
+                                        </attributedString>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="faZ-Cm-8k0">
+                                        <rect key="frame" x="95" y="187" width="185" height="20"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="20" id="K7W-66-q4V"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="Aileron-HeavyItalic" family="Aileron" pointSize="12"/>
+                                        <state key="normal" title="WWW.THEGLAMCOATCH.COM ">
+                                            <color key="titleColor" red="0.015145697559764727" green="0.019600929991784644" blue="0.30179323186528495" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="webLinkButtonTapped:" destination="FZJ-2J-eUS" eventType="touchUpInside" id="MT2-wI-snn"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Oim-eC-vWr">
+                                        <rect key="frame" x="299" y="181" width="56" height="32"/>
+                                        <fontDescription key="fontDescription" style="UICTFontTextStyleCallout"/>
+                                        <state key="normal" title="Skip &gt;&gt;">
+                                            <color key="titleColor" name="mainn-pink"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="skipButtonTapped:" destination="FZJ-2J-eUS" eventType="touchUpInside" id="uj3-If-shB"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <constraints>
+                                    <constraint firstItem="BiP-Tp-GxW" firstAttribute="height" secondItem="blr-il-XPM" secondAttribute="height" multiplier="2:6" id="1SF-eW-mfn"/>
+                                    <constraint firstItem="Oim-eC-vWr" firstAttribute="centerY" secondItem="faZ-Cm-8k0" secondAttribute="centerY" id="2zp-db-v2q"/>
+                                    <constraint firstItem="blr-il-XPM" firstAttribute="top" secondItem="IGd-lF-0GL" secondAttribute="top" constant="4" id="Gel-Eh-5ne"/>
+                                    <constraint firstAttribute="trailing" secondItem="blr-il-XPM" secondAttribute="trailing" constant="30" id="M5T-Y6-kVS"/>
+                                    <constraint firstAttribute="trailing" secondItem="Oim-eC-vWr" secondAttribute="trailing" constant="20" symbolic="YES" id="TxG-Fy-g2A"/>
+                                    <constraint firstItem="faZ-Cm-8k0" firstAttribute="centerX" secondItem="IGd-lF-0GL" secondAttribute="centerX" id="Xc6-1j-gMD"/>
+                                    <constraint firstItem="BiP-Tp-GxW" firstAttribute="leading" secondItem="IGd-lF-0GL" secondAttribute="leading" constant="30" id="cfC-DM-rAo"/>
+                                    <constraint firstItem="BiP-Tp-GxW" firstAttribute="top" secondItem="blr-il-XPM" secondAttribute="bottom" id="gL9-b2-ToA"/>
+                                    <constraint firstItem="blr-il-XPM" firstAttribute="leading" secondItem="IGd-lF-0GL" secondAttribute="leading" constant="30" id="gs4-eR-hyn"/>
+                                    <constraint firstAttribute="bottom" secondItem="faZ-Cm-8k0" secondAttribute="bottom" constant="20" symbolic="YES" id="jr7-GN-j0K"/>
+                                    <constraint firstItem="faZ-Cm-8k0" firstAttribute="top" secondItem="BiP-Tp-GxW" secondAttribute="bottom" constant="8" symbolic="YES" id="mi9-O6-0CZ"/>
+                                    <constraint firstAttribute="trailing" secondItem="BiP-Tp-GxW" secondAttribute="trailing" constant="30" id="yfe-Td-QYd"/>
+                                </constraints>
+                            </view>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="flower-vertical-rotated" translatesAutoresizingMaskIntoConstraints="NO" id="JH4-sD-wSZ">
+                                <rect key="frame" x="319" y="162" width="212" height="247"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="flower-vertical-rotated" translatesAutoresizingMaskIntoConstraints="NO" id="NS8-es-ccb">
+                                <rect key="frame" x="-124" y="98" width="194" height="242"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Sog-Ux-v9z">
+                                <rect key="frame" x="136" y="435" width="103" height="1"/>
+                                <color key="backgroundColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="1" id="J3T-NW-erN"/>
+                                </constraints>
+                            </view>
+                        </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="EQh-Qa-pu6" firstAttribute="trailing" secondItem="8ZU-QL-qLL" secondAttribute="trailing" id="GeT-dA-s7Z"/>
+                            <constraint firstItem="Sog-Ux-v9z" firstAttribute="leading" secondItem="Wfm-oj-b2j" secondAttribute="leadingMargin" constant="120" id="HQG-6F-GOE"/>
+                            <constraint firstItem="FBJ-mh-9B6" firstAttribute="leading" secondItem="8ZU-QL-qLL" secondAttribute="leading" id="I2u-lE-roX"/>
+                            <constraint firstItem="KLf-ky-Rvq" firstAttribute="top" secondItem="FBJ-mh-9B6" secondAttribute="bottom" id="Lde-Hj-tXT"/>
+                            <constraint firstItem="Sog-Ux-v9z" firstAttribute="top" secondItem="KLf-ky-Rvq" secondAttribute="bottom" constant="4" id="Np6-ko-jeR"/>
+                            <constraint firstItem="EQh-Qa-pu6" firstAttribute="leading" secondItem="FBJ-mh-9B6" secondAttribute="trailing" id="Pez-d3-zr0"/>
+                            <constraint firstItem="EQh-Qa-pu6" firstAttribute="top" secondItem="Wfm-oj-b2j" secondAttribute="top" id="YM3-4T-UiZ"/>
+                            <constraint firstAttribute="bottom" secondItem="IGd-lF-0GL" secondAttribute="bottom" id="d1T-nT-fvf"/>
+                            <constraint firstItem="IGd-lF-0GL" firstAttribute="height" secondItem="KLf-ky-Rvq" secondAttribute="height" multiplier="1:1.5" id="eRh-nC-Oso"/>
+                            <constraint firstItem="KLf-ky-Rvq" firstAttribute="leading" secondItem="8ZU-QL-qLL" secondAttribute="leading" id="jZU-HI-U1X"/>
+                            <constraint firstItem="8ZU-QL-qLL" firstAttribute="trailing" secondItem="IGd-lF-0GL" secondAttribute="trailing" id="kdJ-vN-1GE"/>
+                            <constraint firstItem="FBJ-mh-9B6" firstAttribute="top" secondItem="8ZU-QL-qLL" secondAttribute="top" id="oig-dh-aHY"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Sog-Ux-v9z" secondAttribute="trailing" constant="120" id="rQ3-TE-PAk"/>
+                            <constraint firstItem="8ZU-QL-qLL" firstAttribute="trailing" secondItem="KLf-ky-Rvq" secondAttribute="trailing" id="sWk-Cs-3tc"/>
+                            <constraint firstItem="IGd-lF-0GL" firstAttribute="top" secondItem="Sog-Ux-v9z" secondAttribute="bottom" constant="4" id="vF7-Vz-BEj"/>
+                            <constraint firstItem="IGd-lF-0GL" firstAttribute="leading" secondItem="8ZU-QL-qLL" secondAttribute="leading" id="zLb-jk-voA"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="8ZU-QL-qLL"/>
                     </view>
+                    <connections>
+                        <outlet property="instructionTitle" destination="5aO-Iv-J5X" id="j5d-G6-fq2"/>
+                        <outletCollection property="largDescriptions" destination="qAQ-7t-kNQ" collectionClass="NSMutableArray" id="dBh-2g-gUZ"/>
+                        <outletCollection property="largDescriptions" destination="aUC-qi-TnA" collectionClass="NSMutableArray" id="oeN-mz-1WT"/>
+                        <outletCollection property="smallDescriptions" destination="blr-il-XPM" collectionClass="NSMutableArray" id="p6g-C4-0m0"/>
+                        <outletCollection property="smallDescriptions" destination="BiP-Tp-GxW" collectionClass="NSMutableArray" id="PTZ-hL-Mo1"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="RKh-Fa-w5v" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2492" y="832"/>
+            <point key="canvasLocation" x="2492" y="831.63418290854577"/>
         </scene>
         <!--Home View Controller-->
         <scene sceneID="Kjs-1s-pa9">
@@ -625,6 +824,8 @@ Vision</string>
         <image name="corner-image" width="404" height="378"/>
         <image name="flower-buttom" width="1560" height="480"/>
         <image name="flower-vertical" width="194.5" height="253.5"/>
+        <image name="flower-vertical-rotated" width="389" height="507"/>
+        <image name="intro-top-right-flover" width="487" height="385"/>
         <image name="logo-transperent-image" width="1242" height="1245"/>
         <image name="splash-top-image" width="1242" height="236"/>
         <namedColor name="butonColor-1">
