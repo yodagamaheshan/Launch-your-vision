@@ -12,6 +12,9 @@
 		5616D9C32444A1E70035EB1C /* AlegreyaSans-Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = 5616D9C22444A1E70035EB1C /* AlegreyaSans-Black.otf */; };
 		56C26CD82440011500C7D4DD /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56C26CD72440011500C7D4DD /* Extension.swift */; };
 		56D9002B24454869005F9AE5 /* InstructionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56D9002A24454869005F9AE5 /* InstructionViewController.swift */; };
+		56D9002D2445497E005F9AE5 /* Adumu.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 56D9002C2445497E005F9AE5 /* Adumu.ttf */; };
+		56D9002F244549BE005F9AE5 /* Aileron-Heavy.otf in Resources */ = {isa = PBXBuildFile; fileRef = 56D9002E244549BD005F9AE5 /* Aileron-Heavy.otf */; };
+		56D9003124454A14005F9AE5 /* Aileron-HeavyItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 56D9003024454A14005F9AE5 /* Aileron-HeavyItalic.otf */; };
 		56E3912A243B808E000F6F46 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56E39129243B808E000F6F46 /* AppDelegate.swift */; };
 		56E3912C243B808E000F6F46 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56E3912B243B808E000F6F46 /* SceneDelegate.swift */; };
 		56E39131243B808E000F6F46 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 56E3912F243B808E000F6F46 /* Main.storyboard */; };
@@ -30,6 +33,9 @@
 		5616D9C22444A1E70035EB1C /* AlegreyaSans-Black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "AlegreyaSans-Black.otf"; sourceTree = "<group>"; };
 		56C26CD72440011500C7D4DD /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
 		56D9002A24454869005F9AE5 /* InstructionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstructionViewController.swift; sourceTree = "<group>"; };
+		56D9002C2445497E005F9AE5 /* Adumu.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Adumu.ttf; sourceTree = "<group>"; };
+		56D9002E244549BD005F9AE5 /* Aileron-Heavy.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Aileron-Heavy.otf"; sourceTree = "<group>"; };
+		56D9003024454A14005F9AE5 /* Aileron-HeavyItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Aileron-HeavyItalic.otf"; sourceTree = "<group>"; };
 		56E39126243B808E000F6F46 /* GLAM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GLAM.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		56E39129243B808E000F6F46 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		56E3912B243B808E000F6F46 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -71,6 +77,9 @@
 			children = (
 				5616D9C22444A1E70035EB1C /* AlegreyaSans-Black.otf */,
 				5616D9C02444A1B90035EB1C /* AlegreyaSans-BlackItalic.otf */,
+				56D9002C2445497E005F9AE5 /* Adumu.ttf */,
+				56D9002E244549BD005F9AE5 /* Aileron-Heavy.otf */,
+				56D9003024454A14005F9AE5 /* Aileron-HeavyItalic.otf */,
 			);
 			path = Font;
 			sourceTree = "<group>";
@@ -240,9 +249,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				56D9003124454A14005F9AE5 /* Aileron-HeavyItalic.otf in Resources */,
 				56E39136243B8092000F6F46 /* LaunchScreen.storyboard in Resources */,
 				56E39133243B8092000F6F46 /* Assets.xcassets in Resources */,
 				5616D9C12444A1B90035EB1C /* AlegreyaSans-BlackItalic.otf in Resources */,
+				56D9002F244549BE005F9AE5 /* Aileron-Heavy.otf in Resources */,
+				56D9002D2445497E005F9AE5 /* Adumu.ttf in Resources */,
 				56E39131243B808E000F6F46 /* Main.storyboard in Resources */,
 				5616D9C32444A1E70035EB1C /* AlegreyaSans-Black.otf in Resources */,
 			);

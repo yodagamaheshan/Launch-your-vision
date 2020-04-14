@@ -6,6 +6,9 @@
 	<array>
 		<string>AlegreyaSans-Black.otf</string>
 		<string>AlegreyaSans-BlackItalic.otf</string>
+		<string>Adumu.ttf</string>
+		<string>Aileron-Heavy.otf</string>
+		<string>Aileron-HeavyItalic.otf</string>
 	</array>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>$(DEVELOPMENT_LANGUAGE)</string>
