@@ -23,6 +23,12 @@ class InstructionViewController: UIViewController {
     }
     
     @IBAction func webLinkButtonTapped(_ sender: Any) {
+        guard let url = URL(string: "https://sonjiapeltonsam.com") else {
+            return
+        }
+        if UIApplication.shared.canOpenURL(url) {
+            UIApplication.shared.open(url, options: [:], completionHandler: nil)
+        }
     }
     
     @IBAction func skipButtonTapped(_ sender: Any) {
