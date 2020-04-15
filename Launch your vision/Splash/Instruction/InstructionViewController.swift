@@ -42,6 +42,9 @@ class InstructionViewController: UIViewController {
     }
     
     func setUpViews(){
+        
+        navigationController?.navigationBar.isHidden = true
+        
         //instruction label
         let attributedString = NSMutableAttributedString(string: "INSTRUCTIONS".uppercased())
         attributedString.addAttribute(NSAttributedString.Key.kern, value: 6, range: NSRange(location: 0, length: attributedString.length - 1))

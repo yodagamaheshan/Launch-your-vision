@@ -26,6 +26,7 @@ class NewSplashViewController: UIViewController {
     
     func setupViews(){
         
+        navigationController?.navigationBar.isHidden = true
         
         let attributedString = NSMutableAttributedString(string: "21 Days to\nlaunch Your\nVision".uppercased())
         attributedString.addAttribute(NSAttributedString.Key.kern, value: 10, range: NSRange(location: 0, length: attributedString.length - 1))
