@@ -55,7 +55,7 @@ class NewSplashViewController: UIViewController {
     override func viewDidAppear(_ animated: Bool) {
         navigationController?.interactivePopGestureRecognizer?.isEnabled = false
 
-        DispatchQueue.main.asyncAfter(deadline: .now() + 1.1, execute: {
+        DispatchQueue.main.asyncAfter(deadline: .now() + 0.5, execute: {
             
             UIView.animate(withDuration: 1, animations: {
                 self.sub1.isHidden = false
@@ -72,7 +72,7 @@ class NewSplashViewController: UIViewController {
                                     UIView.animate(withDuration: 1, animations: {
                                         self.sub4.isHidden = false
                                     }) { (isComplete) in
-                                        DispatchQueue.main.asyncAfter(deadline: .now() + 1, execute: {
+                                        DispatchQueue.main.asyncAfter(deadline: .now() + 1.5, execute: {
                                             let vc = InstructionViewController.make()
                                             self.goTo(viewController: vc)
                                         })
