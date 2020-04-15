@@ -231,7 +231,7 @@ up</string>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalCompressionResistancePriority="1000" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VWQ-ng-Gpr" customClass="RQShineLabel">
-                                <rect key="frame" x="93.5" y="68" width="188.5" height="144"/>
+                                <rect key="frame" x="81.5" y="68" width="212" height="140"/>
                                 <string key="text">21 Days to 
 launch Your
 Vision</string>
@@ -245,16 +245,16 @@ Vision</string>
                                 </constraints>
                             </imageView>
                             <view contentMode="scaleToFill" verticalCompressionResistancePriority="1000" translatesAutoresizingMaskIntoConstraints="NO" id="nO6-UQ-Y13">
-                                <rect key="frame" x="0.0" y="212" width="375" height="305"/>
+                                <rect key="frame" x="0.0" y="208" width="375" height="309"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" verticalCompressionResistancePriority="1000" translatesAutoresizingMaskIntoConstraints="NO" id="fHd-aN-vcP">
-                                        <rect key="frame" x="20" y="136.5" width="330" height="32"/>
+                                        <rect key="frame" x="20" y="138.5" width="330" height="32"/>
                                         <subviews>
                                             <stackView opaque="NO" contentMode="scaleToFill" verticalCompressionResistancePriority="1000" axis="vertical" distribution="equalSpacing" spacing="13" translatesAutoresizingMaskIntoConstraints="NO" id="Yy7-72-PHY">
                                                 <rect key="frame" x="0.0" y="16" width="330" height="0.0"/>
                                                 <subviews>
                                                     <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="237" verticalCompressionResistancePriority="752" text="GET UP" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="40" translatesAutoresizingMaskIntoConstraints="NO" id="eEc-Hz-TVd" customClass="RQShineLabel">
-                                                        <rect key="frame" x="0.0" y="0.0" width="453.5" height="0.0"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="500.5" height="0.0"/>
                                                         <fontDescription key="fontDescription" name="AlegreyaSans-BlackItalic" family="Alegreya Sans" pointSize="40"/>
                                                         <color key="textColor" name="subtitle color-1"/>
                                                         <nil key="highlightedColor"/>
@@ -263,7 +263,7 @@ Vision</string>
                                                         </variation>
                                                     </label>
                                                     <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="237" verticalCompressionResistancePriority="752" text="LOVE YOUR SELF" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="40" translatesAutoresizingMaskIntoConstraints="NO" id="Dk3-EM-SE2" customClass="RQShineLabel">
-                                                        <rect key="frame" x="0.0" y="0.0" width="453.5" height="0.0"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="500.5" height="0.0"/>
                                                         <fontDescription key="fontDescription" name="AlegreyaSans-BlackItalic" family="Alegreya Sans" pointSize="40"/>
                                                         <color key="textColor" name="subtitle color-2"/>
                                                         <nil key="highlightedColor"/>
@@ -272,7 +272,7 @@ Vision</string>
                                                         </variation>
                                                     </label>
                                                     <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="237" verticalCompressionResistancePriority="752" text="AFFIRM YOUR  BELIEF" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="40" translatesAutoresizingMaskIntoConstraints="NO" id="0Zm-07-wcv" customClass="RQShineLabel">
-                                                        <rect key="frame" x="0.0" y="0.0" width="453.5" height="0.0"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="500.5" height="0.0"/>
                                                         <fontDescription key="fontDescription" name="AlegreyaSans-BlackItalic" family="Alegreya Sans" pointSize="40"/>
                                                         <color key="textColor" name="subtitle color-3"/>
                                                         <nil key="highlightedColor"/>
@@ -281,7 +281,7 @@ Vision</string>
                                                         </variation>
                                                     </label>
                                                     <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="237" verticalCompressionResistancePriority="752" text="MAKE IT HAPPEN NOW" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="40" translatesAutoresizingMaskIntoConstraints="NO" id="UoY-XH-7Wc" customClass="RQShineLabel">
-                                                        <rect key="frame" x="0.0" y="0.0" width="453.5" height="0.0"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="500.5" height="0.0"/>
                                                         <fontDescription key="fontDescription" name="AlegreyaSans-BlackItalic" family="Alegreya Sans" pointSize="40"/>
                                                         <color key="textColor" name="subtitle color-4"/>
                                                         <nil key="highlightedColor"/>
@@ -318,7 +318,7 @@ Vision</string>
                                 </constraints>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="WWW.THEGLAMCOACH.COM" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lQJ-2e-Lya" customClass="RQShineLabel">
-                                <rect key="frame" x="59.5" y="542" width="256.5" height="25.5"/>
+                                <rect key="frame" x="41.5" y="542" width="292.5" height="25.5"/>
                                 <fontDescription key="fontDescription" name="AlegreyaSans-Black" family="Alegreya Sans" pointSize="21"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -385,7 +385,7 @@ Vision</string>
                                 <rect key="frame" x="0.0" y="0.0" width="242" height="90"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="INSTRUCTIONS" textAlignment="center" lineBreakMode="wordWrap" baselineAdjustment="alignBaselines" minimumFontSize="24" translatesAutoresizingMaskIntoConstraints="NO" id="5aO-Iv-J5X">
-                                        <rect key="frame" x="20" y="23.5" width="222" height="43"/>
+                                        <rect key="frame" x="20" y="28.5" width="222" height="33"/>
                                         <fontDescription key="fontDescription" name="Adumu" family="Adumu" pointSize="28"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
@@ -497,7 +497,7 @@ cards. swipe left to move
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="faZ-Cm-8k0">
-                                        <rect key="frame" x="95" y="187" width="185" height="20"/>
+                                        <rect key="frame" x="99" y="187" width="177" height="20"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="20" id="K7W-66-q4V"/>
                                         </constraints>
@@ -786,6 +786,9 @@ cards. swipe left to move
                         <outletCollection property="homeButtons" destination="ZHC-xH-fhN" collectionClass="NSMutableArray" id="o14-fo-JNO"/>
                         <outletCollection property="homeButtons" destination="dtN-go-L5t" collectionClass="NSMutableArray" id="pZt-M4-LUu"/>
                         <outletCollection property="homeButtons" destination="Mda-OU-yLN" collectionClass="NSMutableArray" id="uid-9y-PTS"/>
+                        <outletCollection property="shineLabels" destination="8IV-ZA-RDr" collectionClass="NSMutableArray" id="DAj-K2-hDG"/>
+                        <outletCollection property="shineLabels" destination="fIO-JY-Wei" collectionClass="NSMutableArray" id="Rjv-OA-sQW"/>
+                        <outletCollection property="shineLabels" destination="eEM-Ru-oxM" collectionClass="NSMutableArray" id="2ag-rs-nSR"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="cfp-nA-mo5" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>

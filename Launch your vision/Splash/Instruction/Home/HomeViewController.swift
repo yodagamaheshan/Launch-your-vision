@@ -7,11 +7,13 @@
 //
 
 import UIKit
+import RQShineLabel
 
 class HomeViewController: UIViewController {
     
     
     @IBOutlet var homeButtons: [UIButton]!
+    @IBOutlet var shineLabels: [RQShineLabel]!
     
     
     static func make() -> HomeViewController {
@@ -26,11 +28,34 @@ class HomeViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     
+    override func viewDidAppear(_ animated: Bool) {
+        for label in shineLabels{
+            label.shine()
+        }
+    }
+    
     override func viewWillAppear(_ animated: Bool) {
          navigationController?.navigationBar.isHidden = true
     }
     
     func setupViews(){
+        //shine label colors
+        for label in shineLabels{
+            
+            if label.text == "TOOL KIT"{
+                if #available(iOS 13.0, *) {
+                    label.textColor = UIColor.label
+                } else {
+                    // Fallback on earlier versions
+                    label.textColor = UIColor.black
+                }
+            }
+            else{
+            label.textColor = UIColor.getAppColor(color: .mainPink)
+            }
+            label.shine()
+        }
+        
         for button in homeButtons{
             button.titleLabel?.numberOfLines = 0
             button.titleLabel?.textAlignment = .center
