@@ -192,9 +192,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		56E39125243B808E000F6F46 /* GLAM */ = {
+		56E39125243B808E000F6F46 /* Launch Your Vision */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 56E3913A243B8093000F6F46 /* Build configuration list for PBXNativeTarget "GLAM" */;
+			buildConfigurationList = 56E3913A243B8093000F6F46 /* Build configuration list for PBXNativeTarget "Launch Your Vision" */;
 			buildPhases = (
 				0ECC1F9FFC78739EB6BC91EB /* [CP] Check Pods Manifest.lock */,
 				56E39122243B808E000F6F46 /* Sources */,
@@ -206,7 +206,7 @@
 			);
 			dependencies = (
 			);
-			name = GLAM;
+			name = "Launch Your Vision";
 			productName = "Launch your vision";
 			productReference = 56E39126243B808E000F6F46 /* Launch Your Vision.app */;
 			productType = "com.apple.product-type.application";
@@ -239,7 +239,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				56E39125243B808E000F6F46 /* GLAM */,
+				56E39125243B808E000F6F46 /* Launch Your Vision */,
 			);
 		};
 /* End PBXProject section */
@@ -463,14 +463,14 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 3;
+				CURRENT_PROJECT_VERSION = 4;
 				DEVELOPMENT_TEAM = Q2K8ZNFR9V;
 				INFOPLIST_FILE = "Launch your vision/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.02;
+				MARKETING_VERSION = 1.03;
 				PRODUCT_BUNDLE_IDENTIFIER = HeshCompany.LaunchYourVision;
 				PRODUCT_NAME = "Launch Your Vision";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -486,14 +486,14 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 3;
+				CURRENT_PROJECT_VERSION = 4;
 				DEVELOPMENT_TEAM = Q2K8ZNFR9V;
 				INFOPLIST_FILE = "Launch your vision/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.02;
+				MARKETING_VERSION = 1.03;
 				PRODUCT_BUNDLE_IDENTIFIER = HeshCompany.LaunchYourVision;
 				PRODUCT_NAME = "Launch Your Vision";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -514,7 +514,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		56E3913A243B8093000F6F46 /* Build configuration list for PBXNativeTarget "GLAM" */ = {
+		56E3913A243B8093000F6F46 /* Build configuration list for PBXNativeTarget "Launch Your Vision" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				56E3913B243B8093000F6F46 /* Debug */,

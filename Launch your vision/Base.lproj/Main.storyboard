@@ -231,7 +231,7 @@ up</string>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalCompressionResistancePriority="1000" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VWQ-ng-Gpr" customClass="RQShineLabel">
-                                <rect key="frame" x="408.5" y="68" width="207" height="158.5"/>
+                                <rect key="frame" x="395.5" y="68" width="233.5" height="154"/>
                                 <string key="text">21 Days to 
 launch Your
 Vision</string>
@@ -251,16 +251,16 @@ Vision</string>
                                 </constraints>
                             </imageView>
                             <view contentMode="scaleToFill" verticalCompressionResistancePriority="1000" translatesAutoresizingMaskIntoConstraints="NO" id="nO6-UQ-Y13">
-                                <rect key="frame" x="0.0" y="226.5" width="1024" height="989.5"/>
+                                <rect key="frame" x="0.0" y="222" width="1024" height="994"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" verticalCompressionResistancePriority="1000" translatesAutoresizingMaskIntoConstraints="NO" id="fHd-aN-vcP">
-                                        <rect key="frame" x="20" y="159.5" width="979" height="671"/>
+                                        <rect key="frame" x="20" y="481" width="979" height="32"/>
                                         <subviews>
                                             <stackView opaque="NO" contentMode="scaleToFill" verticalCompressionResistancePriority="1000" axis="vertical" distribution="equalSpacing" spacing="13" translatesAutoresizingMaskIntoConstraints="NO" id="Yy7-72-PHY">
-                                                <rect key="frame" x="0.0" y="16" width="979" height="639"/>
+                                                <rect key="frame" x="0.0" y="16" width="979" height="0.0"/>
                                                 <subviews>
                                                     <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="237" verticalCompressionResistancePriority="752" text="GET UP" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="40" translatesAutoresizingMaskIntoConstraints="NO" id="eEc-Hz-TVd" customClass="RQShineLabel">
-                                                        <rect key="frame" x="0.0" y="0.0" width="979" height="120"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="1087.5" height="0.0"/>
                                                         <fontDescription key="fontDescription" name="AlegreyaSans-BlackItalic" family="Alegreya Sans" pointSize="40"/>
                                                         <color key="textColor" name="subtitle color-1"/>
                                                         <nil key="highlightedColor"/>
@@ -272,7 +272,7 @@ Vision</string>
                                                         </variation>
                                                     </label>
                                                     <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="237" verticalCompressionResistancePriority="752" text="LOVE YOUR SELF" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="40" translatesAutoresizingMaskIntoConstraints="NO" id="Dk3-EM-SE2" customClass="RQShineLabel">
-                                                        <rect key="frame" x="0.0" y="133" width="979" height="120"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="1087.5" height="0.0"/>
                                                         <fontDescription key="fontDescription" name="AlegreyaSans-BlackItalic" family="Alegreya Sans" pointSize="40"/>
                                                         <color key="textColor" name="subtitle color-2"/>
                                                         <nil key="highlightedColor"/>
@@ -284,7 +284,7 @@ Vision</string>
                                                         </variation>
                                                     </label>
                                                     <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="237" verticalCompressionResistancePriority="752" text="AFFIRM YOUR  BELIEF" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="40" translatesAutoresizingMaskIntoConstraints="NO" id="0Zm-07-wcv" customClass="RQShineLabel">
-                                                        <rect key="frame" x="0.0" y="266" width="979" height="120"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="1087.5" height="0.0"/>
                                                         <fontDescription key="fontDescription" name="AlegreyaSans-BlackItalic" family="Alegreya Sans" pointSize="40"/>
                                                         <color key="textColor" name="subtitle color-3"/>
                                                         <nil key="highlightedColor"/>
@@ -296,7 +296,7 @@ Vision</string>
                                                         </variation>
                                                     </label>
                                                     <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="237" verticalCompressionResistancePriority="752" text="MAKE IT HAPPEN NOW" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="40" translatesAutoresizingMaskIntoConstraints="NO" id="UoY-XH-7Wc" customClass="RQShineLabel">
-                                                        <rect key="frame" x="0.0" y="399" width="979" height="240"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="1087.5" height="0.0"/>
                                                         <fontDescription key="fontDescription" name="AlegreyaSans-BlackItalic" family="Alegreya Sans" pointSize="40"/>
                                                         <color key="textColor" name="subtitle color-4"/>
                                                         <nil key="highlightedColor"/>
@@ -336,7 +336,7 @@ Vision</string>
                                 </constraints>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="WWW.THEGLAMCOACH.COM" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="3" translatesAutoresizingMaskIntoConstraints="NO" id="lQJ-2e-Lya" customClass="RQShineLabel">
-                                <rect key="frame" x="384" y="1224" width="256.5" height="42.5"/>
+                                <rect key="frame" x="366" y="1224" width="292.5" height="42.5"/>
                                 <fontDescription key="fontDescription" name="AlegreyaSans-Black" family="Alegreya Sans" pointSize="21"/>
                                 <nil key="highlightedColor"/>
                                 <variation key="heightClass=regular-widthClass=compact">
@@ -409,7 +409,7 @@ Vision</string>
                                 <rect key="frame" x="0.0" y="0.0" width="862" height="90"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="INSTRUCTIONS" textAlignment="center" lineBreakMode="wordWrap" baselineAdjustment="alignBaselines" minimumFontSize="24" translatesAutoresizingMaskIntoConstraints="NO" id="5aO-Iv-J5X">
-                                        <rect key="frame" x="20" y="7" width="842" height="76.5"/>
+                                        <rect key="frame" x="20" y="16" width="842" height="58.5"/>
                                         <fontDescription key="fontDescription" name="Adumu" family="Adumu" pointSize="28"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
@@ -433,7 +433,7 @@ Vision</string>
                                 <rect key="frame" x="0.0" y="90" width="1024" height="760"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="bottom" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="clip" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="3" translatesAutoresizingMaskIntoConstraints="NO" id="qAQ-7t-kNQ">
-                                        <rect key="frame" x="30" y="0.0" width="852" height="308.5"/>
+                                        <rect key="frame" x="30" y="0.0" width="866.5" height="308.5"/>
                                         <attributedString key="attributedText">
                                             <fragment content="THIS APP HAS 21 DAYS OF PROMPTS TO HELP YOU GET A JUMPSTART ON REACHING YOUR GOALS.">
                                                 <attributes>
@@ -468,7 +468,7 @@ Vision</string>
                                         </variation>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="top" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="aUC-qi-TnA">
-                                        <rect key="frame" x="30" y="328.5" width="964.5" height="431.5"/>
+                                        <rect key="frame" x="30" y="328.5" width="965.5" height="431.5"/>
                                         <attributedString key="attributedText">
                                             <fragment content="YOU ALSO HAVE SCRIPTURES, QUOTES, &amp; AFFIRMATIONS. THESE HELP IGNITE, MOTIVATE, &amp; INSPIRE YOU TO REACH YOUR DESIRED RESULTS.">
                                                 <attributes>
@@ -656,7 +656,7 @@ cards. swipe left to move
                                         </variation>
                                     </label>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="faZ-Cm-8k0">
-                                        <rect key="frame" x="350.5" y="467" width="323" height="20"/>
+                                        <rect key="frame" x="357.5" y="467" width="309" height="20"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="20" id="K7W-66-q4V"/>
                                         </constraints>
