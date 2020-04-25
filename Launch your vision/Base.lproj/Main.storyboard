@@ -529,102 +529,45 @@ Vision</string>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="IGd-lF-0GL">
                                 <rect key="frame" x="0.0" y="440" width="375" height="227"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="3" translatesAutoresizingMaskIntoConstraints="NO" id="blr-il-XPM">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="3" translatesAutoresizingMaskIntoConstraints="NO" id="blr-il-XPM">
                                         <rect key="frame" x="20" y="4" width="335" height="131"/>
-                                        <attributedString key="attributedText">
-                                            <fragment>
-                                                <string key="content">next you will find a page with 
+                                        <string key="text">next you will find a page with 
 6 squares. Click on each square
 and you will find prompts, 
 affirmations, scriptures,&amp; quote
 cards. swipe left to move
 to the next card.</string>
-                                                <attributes>
-                                                    <font key="NSFont" size="13" name="Aileron-HeavyItalic"/>
-                                                    <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="truncatingTail" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                                </attributes>
-                                            </fragment>
-                                        </attributedString>
+                                        <fontDescription key="fontDescription" name="Aileron-HeavyItalic" family="Aileron" pointSize="13"/>
+                                        <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                         <variation key="heightClass=regular-widthClass=compact">
-                                            <attributedString key="attributedText">
-                                                <fragment>
-                                                    <string key="content">next you will find a page with 
-6 squares. Click on each square
-and you will find prompts, 
-affirmations, scriptures,&amp; quote
-cards. swipe left to move
-to the next card.</string>
-                                                    <attributes>
-                                                        <font key="NSFont" size="13" name="Aileron-HeavyItalic"/>
-                                                        <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="truncatingTail" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                                    </attributes>
-                                                </fragment>
-                                            </attributedString>
+                                            <fontDescription key="fontDescription" name="Aileron-HeavyItalic" family="Aileron" pointSize="13"/>
                                         </variation>
                                         <variation key="heightClass=regular-widthClass=regular">
-                                            <attributedString key="attributedText">
-                                                <fragment>
-                                                    <string key="content">next you will find a page with 
-6 squares. Click on each square
-and you will find prompts, 
-affirmations, scriptures,&amp; quote
-cards. swipe left to move
-to the next card.</string>
-                                                    <attributes>
-                                                        <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
-                                                        <font key="NSFont" size="22" name="Aileron-HeavyItalic"/>
-                                                        <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="truncatingTail" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                                    </attributes>
-                                                </fragment>
-                                            </attributedString>
+                                            <fontDescription key="fontDescription" name="Aileron-HeavyItalic" family="Aileron" pointSize="22"/>
                                         </variation>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="5" translatesAutoresizingMaskIntoConstraints="NO" id="BiP-Tp-GxW">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="5" translatesAutoresizingMaskIntoConstraints="NO" id="BiP-Tp-GxW">
                                         <rect key="frame" x="20" y="135" width="335" height="44"/>
-                                        <attributedString key="attributedText">
-                                            <fragment>
-                                                <string key="content">click on the last square on the
+                                        <string key="text">click on the last square on the
 right to get a free gift!!!</string>
-                                                <attributes>
-                                                    <font key="NSFont" size="12" name="Aileron-HeavyItalic"/>
-                                                    <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="truncatingTail" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                                </attributes>
-                                            </fragment>
-                                        </attributedString>
+                                        <fontDescription key="fontDescription" name="Aileron-HeavyItalic" family="Aileron" pointSize="13"/>
+                                        <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                         <variation key="heightClass=regular-widthClass=compact">
-                                            <attributedString key="attributedText">
-                                                <fragment>
-                                                    <string key="content">click on the last square on the
-right to get a free gift!!!</string>
-                                                    <attributes>
-                                                        <font key="NSFont" size="12" name="Aileron-HeavyItalic"/>
-                                                        <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="truncatingTail" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                                    </attributes>
-                                                </fragment>
-                                            </attributedString>
+                                            <fontDescription key="fontDescription" name="Aileron-HeavyItalic" family="Aileron" pointSize="13"/>
                                         </variation>
                                         <variation key="heightClass=regular-widthClass=regular">
-                                            <attributedString key="attributedText">
-                                                <fragment>
-                                                    <string key="content">click on the last square on the
-right to get a free gift!!!</string>
-                                                    <attributes>
-                                                        <font key="NSFont" size="22" name="Aileron-HeavyItalic"/>
-                                                        <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="truncatingTail" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                                    </attributes>
-                                                </fragment>
-                                            </attributedString>
+                                            <fontDescription key="fontDescription" name="Aileron-HeavyItalic" family="Aileron" pointSize="22"/>
                                         </variation>
                                     </label>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="faZ-Cm-8k0">
-                                        <rect key="frame" x="98.5" y="187" width="178" height="20"/>
+                                        <rect key="frame" x="95" y="187" width="185" height="20"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="20" id="K7W-66-q4V"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" name="Aileron-HeavyItalic" family="Aileron" pointSize="12"/>
-                                        <state key="normal" title="WWW.THEGLAMCOACH.COM ">
+                                        <state key="normal" title="WWW.THEGLAMCOATCH.COM ">
                                             <color key="titleColor" name="webLink-blue"/>
                                         </state>
                                         <variation key="heightClass=regular-widthClass=compact">
